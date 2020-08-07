@@ -1,7 +1,7 @@
 {
-  "name": "CHESSWEBSITE",
+  "name": "SPICMACAYWEBSITE",
   "version": "1.0.0",
-  "description": "IT IS AN INITIATIVE BY CHESS",
+  "description": "IT IS AN INITIATIVE BY SPICMACAY",
   "main": "server.js",
   "dependencies": {
     "axios": "^0.18.1",
@@ -41,13 +41,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saumyajeet1/CHESS"
+    "url": "git+https://github.com/spicmacayitnitdgp/Spicmacay-dynamic"
   },
   "keywords": [],
   "author": "SAUMYAJEET MUKHERJEE",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saumyajeet1/CHESS/issues"
+    "url": "https://github.com/spicmacayitnitdgp/Spicmacay-dynamic/issues"
   },
-  "homepage": "https://github.com/saumyajeet1/CHESS#readme"
+  "homepage": "https://github.com/spicmacayitnitdgp/Spicmacay-dynamic#readme"
 }
