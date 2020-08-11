@@ -374,7 +374,7 @@ class Main extends Component {
 </div>
  <br/><br/>
  {/* <!-- footer --> */}
- <footer id="contact">
+ {/* <footer id="contact">
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-md-4 col-12">
@@ -474,7 +474,7 @@ class Main extends Component {
             </div>
         </div>
     </div>
-</div>      
+</div>       */}
             </div>
         );
     }
