@@ -1,13 +1,14 @@
 
 .gallery-header{
   width: 98%;
-  background-color:#67e761;
+  background-color:#ffe032;
   height: 75px;
   margin: 0 auto;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items:center;
+  box-shadow: yellow 2px;
 }
 .gallery p{
   color: white;
