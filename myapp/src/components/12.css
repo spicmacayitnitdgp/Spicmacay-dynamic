@@ -40,6 +40,16 @@
     z-index: 1;
   }
   
+  h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center
+  }
+  #parat{
+    font-family:'Times New Roman', Times, serif;
+    
+    font-weight:200;
+    font-size:20px;
+  }
   /* Place the container to the left */
   .left {
     left: 0;
@@ -86,7 +96,7 @@
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color:yellow;
     position: relative;
     border-radius: 6px;
   }
