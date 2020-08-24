@@ -61,7 +61,7 @@ class FileUpload extends Component {
       onClick={()=>this.onRemove(item.public_id)}
       >
           <div className="wrap"
-          style={{background:`url(${item.url}) no-repeat`}}
+          style={{background:`url(${item.original}) no-repeat`}}
           >
           </div>
       </div>
