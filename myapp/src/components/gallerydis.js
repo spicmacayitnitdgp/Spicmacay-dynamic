@@ -3,6 +3,7 @@ import {allgallery} from "./actions/recordactions"
 
 import {connect} from 'react-redux'
 import ImageGallery from 'react-image-gallery';
+import "../components/gallery.css";
 class GalleryDis extends Component {
     state={
         images:[]
@@ -18,17 +19,19 @@ class GalleryDis extends Component {
     }
     render() {
         return (
-        <div>
+        <div className="gallery">
+            <div className="gallery-header"><p>Gallery</p></div>
+            <div className="gallery-images">
             {
                 this.state.images?
              this.state.images.length>0 ?
              this.state.images.map((item,i)=>(
-                   <div className="row" key={i}>
-                        <div className="col-lg-12 col-sm-12 col-md-12 col-xs-12" id="imgBox" >
-                            <img src={item.images[0].original} style={{height:"200px",width:"200px"}} />
+                   <div className="item" key={i}>
+                        <div className="image" >
+                            <img src={item.images[0].original} style={{height:"250px",width:"250px"}} />
                         </div>
-                             <div className="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-                                <p>{item.name}</p>
+                             <div className="image-title">
+                                <p id="title">{item.name}</p>
                             </div>   
                       
                    </div>
@@ -36,6 +39,7 @@ class GalleryDis extends Component {
         :null
              
             }
+        </div>
         </div>
         );
     }

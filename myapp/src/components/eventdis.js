@@ -21,9 +21,9 @@ class Eventdis extends Component {
         return (
             <div className="row">
                  {
-                     this.state.results?
-             this.state.results.length>0 ?
-             this.state.results.map((item,i)=>(
+                    this.state.results?
+                    this.state.results.length>0 ?
+                    this.state.results.map((item,i)=>(
                    <div className="col-lg-6 col-sm-6 col-xs-6 col-md-6" key={i}>
                         <div className="row" id="imgBox">
                             <img src={item.images[0].original}/>
