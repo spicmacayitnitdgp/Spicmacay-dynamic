@@ -7,6 +7,7 @@ import thirteen from "./images/13.jpg"
 import twelve from "./images/24.jpg"
 import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
+import indika from './images/indika.jpg'
 import one from "./images/1.jpg"
 import logo from "./images/logo.png"
 import {connect} from "react-redux"
@@ -98,7 +99,6 @@ class Main extends Component {
 
         {/* <!-- Events -->
      <!-- Enter pictures of events here --> */}
-     <div className="row">
           {/* <p className="events" style={{color:"black",textAlign:"center !important",marginLeft:"20px"}}>EVENTS</p> */}
      <div className="contain1" >
     <div className="card">
@@ -164,13 +164,11 @@ class Main extends Component {
                         
 </div>        
 
-</div>
 
-<div className="row">
      <div className="contain1" >
     <div className="card">
         <div className="imgcard">
-           <img className="images" src={one}/>
+           <img className="images" src={indika}/>
         </div>
            <div className="detail">
                <h2 className="titl">INDIKA</h2>
@@ -180,15 +178,14 @@ class Main extends Component {
                 Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
                 what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
                 its finest.</p>
-                    {/* <button onclick=""><a href="./loader2.html">READ MORE</a></button> */}
+
                     <Link to={{pathname:"/eventdis",state:{
                           type:"INDIKA"
                       }}}>
                           SEE ARTICLES
                           </Link>  
            </div> 
-    </div>
-    <div className="card">
+    {/* <div className="card">
             <div className="imgcard">
                <img className="images" src={twonine}/>
             </div>
@@ -198,7 +195,6 @@ class Main extends Component {
                     year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
                     creates a vibrant environment . Everyone delves into the madness of this colourful festival and
                     enjoys every bit of time.</p>
-                        {/* <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button> */}
                         <Link to={{pathname:"/eventdis",state:{
                           type:"ADITI"
                       }}}>
@@ -218,7 +214,7 @@ class Main extends Component {
                         workshop focuses to bring the colourful flare of creativity among the underprivileged children
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
                         opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
-                            {/* <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button> */}
+                            
                             <Link to={{pathname:"/eventdis",state:{
                           type:"ANUBHAV"
                       }}}>
@@ -227,7 +223,7 @@ class Main extends Component {
                    </div> 
             
             </div>
-                        
+                         */}
 </div>        
 
 </div>
