@@ -29,7 +29,7 @@ class Header extends Component {
                   <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/virasat">VIRASAT</Link>
                   </li>
                   <li className="nav-item">
-                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/g">Gallery</Link>
+                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/g">GALLERY</Link>
                   </li>
                   </ul>
              </div>  

@@ -173,7 +173,7 @@ class Main extends Component {
            <img className="images" src={one}/>
         </div>
            <div className="detail">
-               <h2 className="titl">VIRASAT</h2>
+               <h2 className="titl">INDIKA</h2>
                <p className="info">VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
                 The perfect blend of gorgeous grace with sonorous tune swirls in the flavour of Indian culture
                 and tradition. Esteemed artists of the likes of Pt Viswa Mohan Bhatt(Grammy Award
@@ -181,6 +181,11 @@ class Main extends Component {
                 what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
                 its finest.</p>
                     {/* <button onclick=""><a href="./loader2.html">READ MORE</a></button> */}
+                    <Link to={{pathname:"/eventdis",state:{
+                          type:"INDIKA"
+                      }}}>
+                          SEE ARTICLES
+                          </Link>  
            </div> 
     </div>
     <div className="card">
@@ -188,14 +193,14 @@ class Main extends Component {
                <img className="images" src={twonine}/>
             </div>
                <div className="detail">
-                   <h2 className="titl">UTTRAYAN</h2>
+                   <h2 className="titl">ADITI</h2>
                    <p className="info">Uttarayan is the annual kite festival of SPIC MACAY NIT Durgapur Chapter. It is celebrated every
                     year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
                     creates a vibrant environment . Everyone delves into the madness of this colourful festival and
                     enjoys every bit of time.</p>
                         {/* <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button> */}
-                      <Link to={{pathname:"/eventdis",state:{
-                          type:"UTTRAYAN"
+                        <Link to={{pathname:"/eventdis",state:{
+                          type:"ADITI"
                       }}}>
                           SEE ARTICLES
                           </Link>  
@@ -231,7 +236,7 @@ class Main extends Component {
 
 
 {/* <!-- wings --> */}
-<h1> WINGS</h1>
+<h1 style={{textAlign:"center"}}> WINGS</h1>
 <div className="row">
     <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
 <div className="flip-card">
