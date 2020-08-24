@@ -23,7 +23,7 @@ class Header extends Component {
                   <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/facad">FACULTY</Link>
                   </li> */}
                   <li className="nav-item">
-                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/o">MEMBER</Link>
+                  <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/o">MEMBERS</Link>
                   </li>
                   <li className="nav-item">
                   <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/virasat">VIRASAT</Link>
