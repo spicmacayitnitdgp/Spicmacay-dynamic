@@ -1,7 +1,7 @@
 
 .gallery-header{
   width: 98%;
-  background-color:#ffe032;
+  background-color:white;
   height: 75px;
   margin: 0 auto;
   border-radius: 50px;
@@ -11,7 +11,7 @@
   box-shadow: yellow 2px;
 }
 .gallery p{
-  color: white;
+  color: lightseagreen;
   font-size: 30px;
   text-align: center;
   
@@ -21,7 +21,6 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 35px;
   row-gap: 15px;
-  grid-gap: 1rem;
   grid-auto-flow: dense;
   background-color: white !important;
   border-radius: 40px;

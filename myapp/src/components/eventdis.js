@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {searchyear} from './actions/recordactions'
 import {connect} from 'react-redux'
-
+import '../components/events.css';
 class Eventdis extends Component {
     state={
     }
@@ -19,20 +19,19 @@ class Eventdis extends Component {
     }
     render() {
         return (
-            <div className="row">
+            <div className="events">
+                <div className="event-header"><p>Events</p></div>
                  {
                     this.state.results?
                     this.state.results.length>0 ?
                     this.state.results.map((item,i)=>(
-                   <div className="col-lg-6 col-sm-6 col-xs-6 col-md-6" key={i}>
-                        <div className="row" id="imgBox">
-                            <img src={item.images[0].original}/>
-                        </div>
-                             <div className="row">
-                                <p>{item.name}</p>
-                                <p>{item.content}</p>
-                            </div>   
-                       
+                   <div className="event" key={i}>
+                    <div id="event-image"><img src={item.images[0].original} id="event-img"/></div>
+                    <div className="event-text">
+                        <h1>{item.name}</h1>
+                        <div id="event-para"><h5>{item.content}</h5></div>
+                    </div>
+                    
                    </div>
         )):null
              :null
