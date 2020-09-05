@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/1.css'
 import '../components/7.css'
-
+import {Link} from 'react-router-dom'
 import logo from "../components/images/logo.png"
 
 const Footer = () => {
@@ -89,19 +89,16 @@ const Footer = () => {
             <div className="col-12 col-md-6 ">
                 <ul className="footer_menu">
                     <li>
-                        <a href="#">Home</a>
+                       <Link to='/'>Events</Link>
                     </li>
                     <li>
-                        <a href="#events">Events</a>
+                    <Link to='/o'>Team Members</Link>
                     </li>
                     <li>
-                        <a href="#team">Team Members</a>
+                    <Link to='/g'>Gallery</Link>
                     </li>
                     <li>
-                        <a href="#wings">Wings</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Us</a>
+                    <Link to='/virasat'>Virasat</Link>
                     </li>
                 </ul>
             </div>

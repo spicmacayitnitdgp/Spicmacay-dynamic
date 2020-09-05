@@ -93,7 +93,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Akshat Jain
+  Akshat Jain
   </div>
    </div>
    
@@ -113,7 +113,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Rima Roy
+      Rima Roy
       </div>
        </div>
        
@@ -131,7 +131,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Anik Saha
+      Anik Saha
       </div>
        </div>
        
@@ -155,7 +155,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Sankalp Choubey
+  Sankalp Choubey
   </div>
    </div>
    
@@ -175,7 +175,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Sohom Mukherjee
+      Sohom Mukherjee
       </div>
        </div>
        
@@ -193,7 +193,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Liman Rahman
+      Liman Rahman
       </div>
        </div>
        
@@ -217,7 +217,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Ankur Paul
+  Ankur Paul
   </div>
    </div>
    
@@ -237,7 +237,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Souranil Biswas
+      Souranil Biswas
       </div>
        </div>
        
@@ -255,7 +255,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Rojalin Acharya
+      Rojalin Acharya
       </div>
        </div>
        
@@ -279,7 +279,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Mahesh Wanole
+  Mahesh Wanole
   </div>
    </div>
    
@@ -299,7 +299,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Surajit Basak
+      Surajit Basak
       </div>
        </div>
        
@@ -317,7 +317,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Ravi Swaroop
+      Ravi Swaroop
       </div>
        </div>
        
@@ -341,7 +341,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Shivnandan Rawani
+  Shivnandan Rawani
   </div>
    </div>
    
@@ -361,7 +361,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Anubhab Chaudhuri
+      Anubhab Chaudhuri
       </div>
        </div>
        
@@ -386,7 +386,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Surabhi Verma
+  Surabhi Verma
   </div>
    </div>
    
@@ -406,7 +406,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Sannidhya Bagchi
+      Sannidhya Bagchi
       </div>
        </div>
        
@@ -424,7 +424,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Plaboni Mukherjee
+      Plaboni Mukherjee
       </div>
        </div>
        
@@ -448,7 +448,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Anushka Biswas
+  Anushka Biswas
   </div>
    </div>
    
@@ -467,7 +467,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Aithiya Karmakar
+  Aithiya Karmakar
   </div>
    </div>
    
@@ -492,7 +492,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Abhigyan Deoli
+  Abhigyan Deoli
   </div>
    </div>
    
@@ -512,7 +512,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Abhishek Dey
+      Abhishek Dey
       </div>
        </div>
        
@@ -530,7 +530,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Adrija Biswas
+      Adrija Biswas
       </div>
        </div>
        
@@ -553,7 +553,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Ananya Nath
+  Ananya Nath
   </div>
    </div>
    
@@ -573,7 +573,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Annasha Dey
+      Annasha Dey
       </div>
        </div>
        
@@ -591,7 +591,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Anusha Ghosh
+      Anusha Ghosh
       </div>
        </div>
        
@@ -614,7 +614,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Madhumita Mandal
+  Madhumita Mandal
   </div>
    </div>
    
@@ -634,7 +634,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Arya Verma
+      Arya Verma
       </div>
        </div>
        
@@ -652,7 +652,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Joy Mallick
+      Joy Mallick
       </div>
        </div>
        
@@ -675,7 +675,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Madhura Ghosh
+  Madhura Ghosh
   </div>
    </div>
    
@@ -695,7 +695,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Maumita Basu
+      Maumita Basu
       </div>
        </div>
        
@@ -713,7 +713,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Piyanjana Ghosh
+      Piyanjana Ghosh
       </div>
        </div>
        
@@ -735,7 +735,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Pritam Mandal
+  Pritam Mandal
   </div>
    </div>
    
@@ -755,7 +755,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Rittick Purkait
+      Rittick Purkait
       </div>
        </div>
        
@@ -773,7 +773,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Rik Dasgupta
+      Rik Dasgupta
       </div>
        </div>
        
@@ -795,7 +795,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Saikat Ghosh
+  Saikat Ghosh
   </div>
    </div>
    
@@ -815,7 +815,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Saumyajeet Mukherjee
+      Saumyajeet Mukherjee
       </div>
        </div>
        
@@ -833,7 +833,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Sayani Saha
+      Sayani Saha
       </div>
        </div>
        
@@ -855,7 +855,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Shivapriya Garigipati
+  Shivapriya Garigipati
   </div>
    </div>
    
@@ -875,7 +875,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Sneha Dey
+      Sneha Dey
       </div>
        </div>
        
@@ -893,7 +893,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Somdatta Paul
+      Somdatta Paul
       </div>
        </div>
        
@@ -915,7 +915,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Soumyajit Ganguly
+  Soumyajit Ganguly
   </div>
    </div>
    
@@ -935,7 +935,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Sujana Pal
+      Sujana Pal
       </div>
        </div>
        
@@ -953,7 +953,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Suneha Maiti
+      Suneha Maiti
       </div>
        </div>
        
@@ -975,7 +975,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Tamoghna Basak
+  Tamoghna Basak
   </div>
    </div>
    
@@ -995,7 +995,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Tapojyoti Mohanta
+      Tapojyoti Mohanta
       </div>
        </div>
        
@@ -1013,7 +1013,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Tiyasha Ghosh
+      Tiyasha Ghosh
       </div>
        </div>
        
@@ -1035,7 +1035,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Trishikha Saha
+  Trishikha Saha
   </div>
    </div>
    
@@ -1055,7 +1055,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Souvik Bose
+      Souvik Bose
       </div>
        </div>
        
@@ -1073,7 +1073,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Rangeet Hait
+      Rangeet Hait
       </div>
        </div>
        
@@ -1095,7 +1095,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Saswata Bagchi
+  Saswata Bagchi
   </div>
    </div>
    
@@ -1114,7 +1114,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Arunima Nishi Boishakhi
+      Arunima Nishi Boishakhi
       </div>
        </div>
        
@@ -1138,7 +1138,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Rama Charan
+  Rama Charan
   </div>
    </div>
    
@@ -1158,7 +1158,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Avishek Deb Abhi
+      Avishek Deb Abhi
       </div>
        </div>
        
@@ -1176,7 +1176,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Avik Ghatak
+      Avik Ghatak
       </div>
        </div>
        
@@ -1198,7 +1198,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Sayan Ghosh
+  Sayan Ghosh
   </div>
    </div>
    
@@ -1218,7 +1218,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Aishwarya Prakash
+      Aishwarya Prakash
       </div>
        </div>
        
@@ -1236,7 +1236,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Titas Nath
+      Titas Nath
       </div>
        </div>
        
@@ -1258,7 +1258,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Ankita Mandal
+  Ankita Mandal
   </div>
    </div>
    
@@ -1278,7 +1278,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Archi Saha
+      Archi Saha
       </div>
        </div>
        
@@ -1296,7 +1296,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Rajdeep Sinku
+      Rajdeep Sinku
       </div>
        </div>
        
@@ -1318,7 +1318,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Diksha Senpati
+  Diksha Senpati
   </div>
    </div>
    
@@ -1338,7 +1338,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Aditi Gedam
+      Aditi Gedam
       </div>
        </div>
        
@@ -1356,7 +1356,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Chandrima Roy Chowdhury
+      Chandrima Roy Chowdhury
       </div>
        </div>
        
@@ -1378,7 +1378,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-V.Gayatri Deepshikha
+  V.Gayatri Deepshikha
   </div>
    </div>
    
@@ -1398,7 +1398,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Aashish Illa
+      Aashish Illa
       </div>
        </div>
        
@@ -1416,7 +1416,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Chitrita Roy
+      Chitrita Roy
       </div>
        </div>
        
@@ -1438,7 +1438,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Ansh Jha
+  Ansh Jha
   </div>
    </div>
    
@@ -1458,7 +1458,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Sankita Mandal
+      Sankita Mandal
       </div>
        </div>
        
@@ -1476,7 +1476,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Prabhat Rathod
+      Prabhat Rathod
       </div>
        </div>
        
@@ -1498,7 +1498,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Akansha Gautam
+  Akansha Gautam
   </div>
    </div>
    
@@ -1518,7 +1518,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Anupam Das
+      Anupam Das
       </div>
        </div>
        
@@ -1536,7 +1536,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Sayantani Roy
+      Sayantani Roy
       </div>
        </div>
        
@@ -1558,7 +1558,7 @@ class Team extends Component {
    <div className="details"> 
    <div className="row">
   <div className="col-lg-12 name">
-   NAME:-Sayan Majumdar
+  Sayan Majumdar
   </div>
    </div>
    
@@ -1578,7 +1578,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Shubham Ghosal
+      Shubham Ghosal
       </div>
        </div>
        
@@ -1596,7 +1596,7 @@ class Team extends Component {
        <div className="details"> 
        <div className="row">
       <div className="col-lg-12 name">
-       NAME:-Ramiz Mollah
+      Ramiz Mollah
       </div>
        </div>
        
