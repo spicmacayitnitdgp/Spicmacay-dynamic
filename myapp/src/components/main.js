@@ -81,7 +81,7 @@ class Main extends Component {
                 <div className="circle">
 
                 </div>
-                <p style={{fontFamily:"Times new roman"}}>SPIC MACAY (Society for the Promotion of Indian classNameical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
+                <p style={{fontFamily:"Times new roman !important", fontStyle:'normal !important'}}>SPIC MACAY (Society for the Promotion of Indian classNameical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
                     by Dr Kiran Seth, Professor-Emeritus at IIT-Delhi who was awarded the ‘Padma Shri’ for his contribution to the arts in 2009.
                    SPICMACAY’s intention is to enrich the quality of formal education by increasing awareness about different aspects of Indian heritage 
                    and inspiring the young mind to imbibe the values embedded in it. It seeks to inspire youth through experiencing the mysticism embodied
@@ -238,7 +238,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={ten} alt="Avatar" style={{width:"300px",height:"300px"}}/>
+      <img src={ten} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
     </div>
     <div className="flip-card-back">
     <h1>DANCE WING</h1>
@@ -252,7 +252,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px"}}/>
+      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
     </div>
     <div className="flip-card-back">
     <h1>MUSIC WING</h1>
@@ -281,7 +281,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px"}}/>
+      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
     </div>
     <div className="flip-card-back">
     <h1>ART WING</h1>
