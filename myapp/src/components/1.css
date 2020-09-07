@@ -30,10 +30,7 @@
 }
 .contain{
     max-width: 1000px;
-    margin-right:10px;
-    margin-left: 50px;
-    margin-top:100px;
-    margin-bottom:10px;
+    margin: auto;
     display:flex;
     flex-wrap: wrap;
    
@@ -41,10 +38,7 @@
 }
 .contain1{
   max-width: 1000px;
-  margin-right:10px;
-  margin-left: 150px ;
-  margin-top:50px;
-  margin-bottom:10px;
+  margin: auto ;
   display:flex;
   flex-wrap: wrap;
  
@@ -99,10 +93,9 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .contain1{
-    margin-left: auto;
-  }
+    max-width: 600px;  }
 }
 /* .imgcard .img{
     position:absolute;

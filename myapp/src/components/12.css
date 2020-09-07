@@ -97,8 +97,10 @@
   .content {
     padding: 20px 30px;
     background-color:yellow;
+    border:2px solid black;
     position: relative;
     border-radius: 6px;
+    height:300px
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
