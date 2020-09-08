@@ -51,7 +51,7 @@
     transform: rotateY(180deg);
   }
 
-  @media (max-width:1400px){
+  @media only screen and (max-width:1400px){
     .flip-card{
        background-color: transparent;
        width: 300px;
@@ -63,3 +63,17 @@
        perspective: 1000px;
     } 
  }
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+  .flip-card{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    margin:auto;
+
+    margin-top: 10px;
+    margin-bottom:10px;
+    perspective: 1000px;
+ } 
+}

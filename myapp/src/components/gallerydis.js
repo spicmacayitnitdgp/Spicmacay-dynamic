@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {allgallery} from "./actions/recordactions"
 
 import {connect} from 'react-redux'
-import ImageGallery from 'react-image-gallery';
 import "../components/gallery.css";
 class GalleryDis extends Component {
     state={

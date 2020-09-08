@@ -14,7 +14,6 @@
   position: absolute;
   bottom:20px;
   height:50px;
-  right:60px;
   width:50px;
   outline: none;
   z-index:10;
@@ -36,7 +35,7 @@
   }
   
   input:checked ~ .toogle{
-    box-shadow: 0 0 0 500px #8c00ff;
+    box-shadow: 0 0 0 320px #8c00ff;
     transform:rotate(225deg)
   }
 
@@ -45,16 +44,17 @@
     font-size:20px;
     padding:8px;
     font-weight:300;
-    text-align: center;
-    color:darkblue;
+    color:white;
+    margin-left:10px
     }
     .name{
       color:black;
       font-size:20px;
       padding:8px;
       font-weight:300;
-      text-align: center;
       color:darkblue;
+      
+    margin-left:10px
     }
 
     .details{
@@ -86,9 +86,6 @@
       
       object-fit: cover;
       }
-      .cardimg{
-      
-      }
       
 .events{
   text-align: center;
@@ -96,4 +93,8 @@
   font-size: 50px;
   color: #fff;
   font-family: 'Roboto Slab', serif;
+}
+
+@media (min-width:1000px){
+#card{  margin-left:-30px !important;}
 }

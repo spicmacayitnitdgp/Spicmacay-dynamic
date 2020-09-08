@@ -236,7 +236,7 @@ body{
   background-color: rgb(221, 75, 57) !important;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .event-list > li {
     position: relative;
     display: block;
