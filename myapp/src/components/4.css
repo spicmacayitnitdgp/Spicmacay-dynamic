@@ -40,13 +40,21 @@
     transform:rotate(225deg)
   }
 
-  .descp,.name{
+  .descp{
     color:black;
     font-size:20px;
     padding:8px;
     font-weight:300;
     text-align: center;
     color:darkblue;
+    }
+    .name{
+      color:black;
+      font-size:20px;
+      padding:8px;
+      font-weight:300;
+      text-align: center;
+      color:darkblue;
     }
 
     .details{

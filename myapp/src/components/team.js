@@ -92,15 +92,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={akshat} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Akshat Jain
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
   President
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -112,15 +112,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rima} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Rima Roy
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
      Treasurer and Content Writing Head
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -130,15 +130,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anik} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Anik Saha
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Treasurer and Art Wing Head
-      </p></div>
+      </div>
        </div>
      </div>
    </div>
@@ -154,15 +154,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sankalp} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Sankalp Choubey
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
   Seceretary
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -174,15 +174,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sohom} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Sohom Mukherjee
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
      Vice-President
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -192,15 +192,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={liman} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Liman Rahman
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Assistance General Secretary
-      </p></div>
+      </div>
        </div>
      </div>
    </div>
@@ -216,15 +216,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ankur} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Ankur Paul
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing Head
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -236,15 +236,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souranil} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Souranil Biswas
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing Head and Sponsorship Head
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -254,15 +254,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rojalin} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Rojalin Acharya
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing Head
-      </p></div>
+      </div>
        </div>
      </div>
    </div>
@@ -278,15 +278,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={mahesh} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Mahesh Wanole
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
   Art Wing Head
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -298,15 +298,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={surajit} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Surajit Basak
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
       Art Wing Head
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -316,15 +316,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ravi} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Ravi Swaroop
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
       IT wing head and sponsorship Head
-      </p></div>
+      </div>
        </div>
      </div>
    </div>
@@ -340,15 +340,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rawani} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Shivnandan Rawani
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Publicity Head
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -360,15 +360,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anubhab} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Anubhab Chaudhuri
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
      Publicity Head
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -385,15 +385,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={surabhi}/></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Surabhi Verma
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Dance Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -405,15 +405,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={bagchi}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Sannidhya Bagchi
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
       Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -423,15 +423,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={plaboni} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Plaboni Mukherjee
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div>
      </div>
    </div>
@@ -447,15 +447,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anushka} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Anushka Biswas
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -466,15 +466,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aitihya} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Aithiya Karmakar
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
   Dance Wing and Sponsorship Head
-  </p></div>
+  </div>
    </div></div>
 </div>
 
@@ -491,15 +491,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhigyan} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Abhigyan Deoli
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -511,15 +511,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhishek} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Abhishek Dey
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -529,15 +529,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={adrija} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Adrija Biswas
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -552,15 +552,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ananya} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Ananya Nath
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Dance Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -572,15 +572,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={annasha} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Annasha Dey
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -590,15 +590,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anusha}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Anusha Ghosh
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -613,15 +613,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhumita} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Madhumita Mandal
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -633,15 +633,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={arya} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Arya Verma
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -651,15 +651,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={joy}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Joy Mallick
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -674,15 +674,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhura}/></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Madhura Ghosh
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Dance Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -694,15 +694,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhumita} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Maumita Basu
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -712,15 +712,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={piyanjana} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Piyanjana Ghosh
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -734,15 +734,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={pritam} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Pritam Mandal
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -754,15 +754,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rittick} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Rittick Purkait
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -772,15 +772,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rik} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Rik Dasgupta
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -794,15 +794,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saikat} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Saikat Ghosh
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -814,15 +814,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={soumyajeet} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Saumyajeet Mukherjee
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -832,15 +832,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayani} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Sayani Saha
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -854,15 +854,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={shivapriya} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Shivapriya Garigipati
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -874,15 +874,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sneha}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Sneha Dey
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -892,15 +892,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={somdatta} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Somdatta Paul
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -914,15 +914,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={soumyajit} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Soumyajit Ganguly
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -934,15 +934,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sujana} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Sujana Pal
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -952,15 +952,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={suneha} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Suneha Maiti
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -974,15 +974,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tamogna} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Tamoghna Basak
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -994,15 +994,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tapojyoti} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Tapojyoti Mohanta
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1012,15 +1012,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tiyasha}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Tiyasha Ghosh
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -1034,15 +1034,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={trishika} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Trishikha Saha
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1054,15 +1054,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souvik} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Souvik Bose
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1072,15 +1072,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rangeet}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Rangeet Hait
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Art Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
    </div>
@@ -1094,15 +1094,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saswata}/></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Saswata Bagchi
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
     Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1113,15 +1113,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src="./images/2nd/arunima..jpg" /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Arunima Nishi Boishakhi
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
         Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1137,15 +1137,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ram} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Rama Charan
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1157,15 +1157,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={avishek} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Avishek Deb Abhi
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1175,15 +1175,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={avik} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Avik Ghatak
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1197,15 +1197,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayang} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Sayan Ghosh
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1217,15 +1217,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aishwariya} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Aishwarya Prakash
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1235,15 +1235,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={titas} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Titas Nath
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1257,15 +1257,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ankita} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Ankita Mandal
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Music Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1277,15 +1277,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={archi} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Archi Saha
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1295,15 +1295,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rajdeep} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Rajdeep Sinku
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1317,15 +1317,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={diksha} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Diksha Senpati
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Dance Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1337,15 +1337,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aditi} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Aditi Gedam
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1355,15 +1355,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={chandrima} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Chandrima Roy Chowdhury
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Dance Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1377,15 +1377,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={gayatri} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   V.Gayatri Deepshikha
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Dance Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1397,15 +1397,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aashish} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Aashish Illa
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1415,15 +1415,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={chitrita} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Chitrita Roy
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1437,15 +1437,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ansh} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Ansh Jha
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1457,15 +1457,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sankita} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Sankita Mandal
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1475,15 +1475,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={prabhat}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Prabhat Rathod
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1497,15 +1497,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={akansha} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Akansha Gautam
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1517,15 +1517,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anupam}/></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Anupam Das
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1535,15 +1535,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayantani} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Sayantani Roy
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Creative Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div>
@@ -1557,15 +1557,15 @@ class Team extends Component {
    <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayan} /></div>
    <div className="details"> 
    <div className="row">
-  <div className="col-lg-12 name"><p>
+  <div className="col-lg-12 name">
   Sayan Majumdar
-  </p></div>
+  </div>
    </div>
    
    <div className="row">
-  <div className="col-lg-12 descp"><p>
+  <div className="col-lg-12 descp">
    Creative Wing
-  </p></div>
+  </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1577,15 +1577,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={shubham} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Shubham Ghosal
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
@@ -1595,15 +1595,15 @@ class Team extends Component {
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ramiz} /></div>
        <div className="details"> 
        <div className="row">
-      <div className="col-lg-12 name"><p>
+      <div className="col-lg-12 name">
       Ramiz Mollah
-      </p></div>
+      </div>
        </div>
        
        <div className="row">
-      <div className="col-lg-12 descp"><p>
+      <div className="col-lg-12 descp">
        Music Wing
-      </p></div>
+      </div>
        </div></div>
    </div>
  </div> 
