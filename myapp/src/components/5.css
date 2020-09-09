@@ -28,7 +28,7 @@
     width: 100%;
 }
 
-@media (min-width:1000px){
+@media (max-width:1000px){
     .diamond-grid{
         width:100%;
         margin:0 15px;

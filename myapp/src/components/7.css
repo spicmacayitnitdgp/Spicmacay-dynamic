@@ -298,7 +298,7 @@ body{
     padding: 10px 0px 9px;
   }
 }
-@media (min-width:1000px) {
+@media (max-width:1000px) {
   .event-list > li {
     position: relative;
     display: block;

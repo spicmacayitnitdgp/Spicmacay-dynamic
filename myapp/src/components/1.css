@@ -575,7 +575,9 @@ a{
   color:black;
 }
 
-
+body{
+  max-width: 100%;
+}
 .description{
 
   border-radius: 5px; 
