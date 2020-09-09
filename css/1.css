@@ -634,7 +634,9 @@ a{
 .description h1{
   font-weight: 800;
   color: #000;
+  text-align: center !important;
 }
+
 
 .circle{
   background-image:url("../images/lo.jpg");
