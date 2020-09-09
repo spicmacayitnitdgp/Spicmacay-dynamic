@@ -305,7 +305,7 @@ class Team extends Component {
        
        <div className="row">
       <div className="col-lg-12 descp">
-      Art Wing Head
+     IT Wing Head
       </div>
        </div></div>
    </div>
