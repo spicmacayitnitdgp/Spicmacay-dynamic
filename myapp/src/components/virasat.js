@@ -24,182 +24,206 @@ import mysore from './images/mysore.jfif'
 import geeta from './images/geeta.webp'
 import mandira from './images/mandira.jfif'
 class Virasat extends Component {
-    render() {
-        return (
-           
-<div className = "timeline">
-  <div className = "containeri left">
-    <div className = "content">
-      <h2>2016</h2>
-      <img src={ileana} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Ileana Citaristi (Padmashree, Leonide Massine)</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2016</h2>
-      <img src={hariprasad} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat"> Pandit Hariprasad Chaurasia (Padma Vibhusan, Padma Bhusan)</p>
-    </div>
-  </div>
-  <div className = "containeri left">
-    <div className = "content">
-      <h2>2016</h2>
-      <img src={tejendra} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Pandit Tejendra Narayan Majumder (President's Gold Medal)</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2016</h2>
-      <img src={ustad} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Ustad Wasim Ahmed Khan</p>
-    </div>
-  </div>
-  <div className = "containeri left">
-    <div className = "content">
-      <h2>2017</h2>
-      <img src={G} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">G.J.R Krishnan</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2017</h2>
-      <img src={deen} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Deen Mohammad Troop</p>
-    </div>
-  </div>
-  <div className = "containeri left">
-    <div className = "content">
-      <h2>2017</h2>
-      <img src={malabika} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Dr Malabika Mitra (Sangeet Natak Akademi Award for Dance)</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2017</h2>
-      <img src={tarun} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Pandit Tarun Bhattacharya with Pandit Prasenjit Poddar</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2017</h2>
-      <img src={priti} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Dr Priti Patel with group</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2018</h2>
-      <img src={ajay} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Ajay Chakrabarti (Padma Shri)</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2018</h2>
-      <img src={partho} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Partho Sarothy</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2018</h2>
-      <img src={mahato} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Prabhat Mahato and Troupe</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2018</h2>
-      <img src={shovana} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Shovana Narayan (Padma Shri)</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2018</h2>
-      <img src={sudip} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Sudip Gupta and Troupe</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2019</h2>
-      <img src={deen} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Deen Mohammad Troupe</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2019</h2>
-      <img src={rajam} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Dr N Rajam (Padma Shri, Padma Bhushan)</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2019</h2>
-      <img src={vishwa} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Vishwa Mohan Bhatt (Grammy Award, Padma Shri, Padma Bhushan)</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2019</h2>
-      <img src={saswati} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Saswati Sen (Sangeet Natak Akadei Award for Dance)</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2011</h2>
-      <img src={priti} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Priti Patel and troupe (Anjika)</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2020</h2>
-      <img src={tejendra} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Pandit Tejendra Narayan Majumder (President's Gold Medal)</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2020</h2>
-      <img src={geeta} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Geeta Chandran (Padma Shri)</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2020</h2>
-      <img src={behera} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Janhabi Behera</p>
-    </div>
-  </div> 
-   <div className = "containeri left">
-    <div className = "content">
-      <h2>2020</h2>
-      <img src={mysore} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Mysore Brothers</p>
-    </div>
-  </div>
-  <div className = "containeri right">
-    <div className = "content">
-      <h2>2020</h2>
-      <img src={mandira} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Mandira Lahiri</p>
-    </div>
-  </div>  <div className = "containeri left">
-    <div className = "content">
-      <h2>2020</h2>
-      <img src={ananta} style={{height:"200px", width:"200px"}} loading="lazy" alt="timeline"/>
-      <p id="parat">Ananta Malakar</p>
-    </div>
-  </div>
-  
-</div>
+  render() {
+    return (
 
-        );
-    }
+      <div className="timeline">
+        <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={ileana} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2016</h4>
+            <p id="parat">Ileana Citaristi (Padmashree, Leonide Massine)</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={hariprasad} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2016</h4>
+            <p id="parat"> Pandit Hariprasad Chaurasia (Padma Vibhusan, Padma Bhusan)</p>
+          </div>
+        </div>
+        <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={tejendra} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2016</h4>
+            <p id="parat">Pandit Tejendra Narayan Majumder (President's Gold Medal)</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={ustad} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2016</h4>
+            <p id="parat">Ustad Wasim Ahmed Khan</p>
+          </div>
+        </div>
+        <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={G} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2017</h4>
+            <p id="parat">G.J.R Krishnan</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={deen} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2017</h4>
+            <p id="parat">Deen Mohammad Troop</p>
+          </div>
+        </div>
+        <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={malabika} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2017</h4>
+            <p id="parat">Dr Malabika Mitra (Sangeet Natak Akademi Award for Dance)</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={tarun} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2017</h4>
+            <p id="parat">Pandit Tarun Bhattacharya with Pandit Prasenjit Poddar</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+
+            <img src={priti} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2017</h4>
+            <p id="parat">Dr Priti Patel with group</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+     
+            <img src={ajay} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2018</h4>
+            <p id="parat">Ajay Chakrabarti (Padma Shri)</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+            
+            <img src={partho} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2018</h4>
+            <p id="parat">Partho Sarothy</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+            
+            <img src={mahato} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2018</h4>
+            <p id="parat">Prabhat Mahato and Troupe</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+            
+            <img src={shovana} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2018</h4>
+            <p id="parat">Shovana Narayan (Padma Shri)</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+            
+            <img src={sudip} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2018</h4>
+            <p id="parat">Sudip Gupta and Troupe</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={deen} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2019</h4>
+            <p id="parat">Deen Mohammad Troupe</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={rajam} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2019</h4>
+            <p id="parat">Dr N Rajam (Padma Shri, Padma Bhushan)</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={vishwa} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2019</h4>
+            <p id="parat">Vishwa Mohan Bhatt (Grammy Award, Padma Shri, Padma Bhushan)</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={saswati} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2019</h4>
+            <p id="parat">Saswati Sen (Sangeet Natak Akadei Award for Dance)</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+            <h4>2019</h4>
+            <img src={priti} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <p id="parat">Priti Patel and troupe (Anjika)</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={tejendra} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2020</h4>
+            <p id="parat">Pandit Tejendra Narayan Majumder (President's Gold Medal)</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={geeta} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2020</h4>
+            <p id="parat">Geeta Chandran (Padma Shri)</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={behera} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2020</h4>
+            <p id="parat">Janhabi Behera</p>
+          </div>
+        </div>
+        <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={mysore} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2020</h4>
+            <p id="parat">Mysore Brothers</p>
+          </div>
+        </div>
+        <div className="containeri right">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={mandira} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2020</h4>
+            <p id="parat">Mandira Lahiri</p>
+          </div>
+        </div>  <div className="containeri left">
+          <div className="content" style={{ height: "310px", width: "200px", backgroundColor: "lime" }}>
+          
+            <img src={ananta} style={{ height: "200px", width: "200px" }} loading="lazy" alt="timeline" />
+            <h4>2020</h4>
+            <p id="parat">Ananta Malakar</p>
+          </div>
+        </div>
+
+      </div>
+
+    );
+  }
 }
 
 export default Virasat;

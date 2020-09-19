@@ -73,10 +73,6 @@
 .card:hover .imgcard{
   transform: rotateY(-135deg);
 }
-.navbar-toggler-icon {
-  float: right !important;
-  position: absolute !important;
-}
   .card .imgcard .images{
   position:absolute;
   top:0px;
