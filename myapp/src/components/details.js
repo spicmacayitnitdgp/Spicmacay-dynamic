@@ -93,6 +93,8 @@ submitform=(event)=>{
                     formSuccess:true,
                     formError:false
                 })
+                alert("Event added")
+                window.location.reload();
             }
                 else{
                     this.setState({
