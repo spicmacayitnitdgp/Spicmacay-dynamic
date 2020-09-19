@@ -8,14 +8,13 @@ class Header extends Component {
       console.log(this.props.user.userData)
         return (
   
-             <div className='header'>
                
-             <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+               <nav className="navbar navbar-expand-md bg-dark navbar-dark">
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul className="navbar-nav">
+                  <ul className="navbar-nav">
                   <li className="nav-item">
                   <Link className ="nav-link" style={{fontFamily:"Times new roman",fontSize:"15px"}} to="/">HOME</Link>
                   </li>
@@ -34,8 +33,6 @@ class Header extends Component {
                   </ul>
              </div>  
             </nav>
-            <br></br>
-            </div>
             
         );
     }
