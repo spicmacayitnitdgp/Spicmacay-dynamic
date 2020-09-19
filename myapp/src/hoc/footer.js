@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="footer_box">
                     <div className="footer_header">
                         <div className="footer_logo">
-                            <img src={logo} alt="evento"/>
+                           <a href="https://spicmacay.org/"> <img src={logo} alt="evento"/> </a>
                         </div>
                     </div>
                     <div className="footer_box_body">
