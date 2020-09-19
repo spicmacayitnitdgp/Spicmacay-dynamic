@@ -60,6 +60,8 @@ submitform=(event)=>{
                     formSuccess:true,
                     formError:false
                 })
+                alert("Image added")
+                window.location.reload();
             }
                 else{
                     this.setState({
