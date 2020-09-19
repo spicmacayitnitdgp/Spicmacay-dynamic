@@ -10,8 +10,7 @@ class Header extends Component {
   
                
                <nav className="navbar navbar-expand-md bg-dark navbar-dark">
-                   <a class="navbar-brand" href="#">                                                               </a>
-
+                 
               <button className="navbar-toggler"  type="button" data-toggle="collapse" data-target="#collapsibleNavbar"  >
                 <span className="navbar-toggler-icon" ></span>
               </button>
