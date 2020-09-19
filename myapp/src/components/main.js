@@ -100,6 +100,7 @@ class Main extends Component {
         {/* <!-- Events -->
      <!-- Enter pictures of events here --> */}
           {/* <p className="events" style={{color:"black",textAlign:"center !important",marginLeft:"20px"}}>EVENTS</p> */}
+          <h1 style={{textAlign:"center"}}> EVENTS</h1>
      <div className="contain1" >
     <div className="card">
         <div className="imgcard">
@@ -122,7 +123,7 @@ class Main extends Component {
 
            </div> 
     </div>
-    <h1 style={{textAlign:"center"}}> EVENTS</h1>
+
     <div className="card">
             <div className="imgcard">
                <img className="images" src={twonine}/>

@@ -99,7 +99,7 @@ imageHandler=(images)=>{
                     reset={this.state.formSuccess}/>
               </div>
             <div className="row"></div>
-            <br></br><br></br><br></br><br></br><br></br><br></br>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             <div className="jumbotron">
 
             <div className="row">
