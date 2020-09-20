@@ -20,13 +20,13 @@ const Footer = () => {
                     <div className="footer_box_body">
                         <p>
                             <div className="address">
-                            <p style={{fontSize:"25px", fontFamily: "'Abril Fatface', cursive", fontWeight:"800",color:"white"}}>Address</p> <br/>
+                            <p style={{fontSize:"25px", fontFamily: "Arial", fontWeight:"800",color:"white"}}>Address</p> <br/>
                             <p style={{fontSize:"16px",color:"white"}}>National Institute of Technology Durgapur <br/> राष्ट्रीय प्रौद्योगिकी संस्थान दुर्गापुर </p>
                             <p style={{fontSize:"14px",color:"white"}}>(An Institute of National Importance under Government of India, <br/>Ministry of Human Resource Development)
                             <br/>Mahatma Gandhi Avenue, Durgapur 713209, West Bengal, INDIA</p>
                         </div>
                         <div className="address" style={{paddingTop: "10px"}}>
-                            <p style={{fontSize:"25px", fontFamily:" Abril Fatface, cursive",color:"white"}}>Email</p>
+                            <p style={{fontSize:"25px", fontFamily:" Arial",color:"white"}}>Email</p>
                             <p><i className="fa fa-envelope">&nbsp;<a href="mailto:spicmacay.nitd@gmail.com" style={{fontSize: "18px",color:"white"}}> spicmacay.nitd@gmail.com </a></i></p>
                         </div>
                         </p>

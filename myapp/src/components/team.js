@@ -15,7 +15,7 @@ import mahesh from "./images/3rd/mahesh.jpg"
 import anubhab from "./images/3rd/anubhab.jpg"
 import ravi from "./images/3rd/ravi.jpg"
 import surajit from "./images/3rd/surajit.jpg"
-import rawani from "./images/3rd/ravi.jpg"
+import rawani from "./images/3rd/rawani.jpg"
 import surabhi from "./images/3rd/surabhi.jpg"
 import plaboni from "./images/3rd/plaboni.jpg"
 import bagchi from "./images/3rd/bagchi.jpg"
@@ -323,7 +323,7 @@ class Team extends Component {
        
        <div className="row">
       <div className="col-lg-12 descp">
-      IT wing head and sponsorship Head
+      IT wing head and Publicity Head
       </div>
        </div>
      </div>
