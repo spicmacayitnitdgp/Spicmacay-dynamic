@@ -104,7 +104,7 @@ class Main extends Component {
      <div className="contain1" >
     <div className="card">
         <div className="imgcard">
-           <img className="images" src={one}/>
+           <img className="images" src={one} loading="lazy"/>
         </div>
            <div className="detail">
                <h2 className="titl">VIRASAT</h2>
@@ -126,7 +126,7 @@ class Main extends Component {
 
     <div className="card">
             <div className="imgcard">
-               <img className="images" src={twonine}/>
+               <img className="images" src={twonine} loading="lazy"/>
             </div>
                <div className="detail">
                    <h2 className="titl">UTTRAYAN</h2>
@@ -145,7 +145,7 @@ class Main extends Component {
         </div>
         <div className="card">
                 <div className="imgcard">
-                   <img className="images" src={seventeen}/>
+                   <img className="images" src={seventeen} loading="lazy"/>
                 </div>
                    <div className="detail">
                        <h2 className="titl">ANUBHAV</h2>
@@ -170,7 +170,7 @@ class Main extends Component {
      <div className="contain1" >
     <div className="card">
         <div className="imgcard">
-           <img className="images" src={indika}/>
+           <img className="images" src={indika} loading="lazy"/>
         </div>
            <div className="detail">
                <h2 className="titl">INDIKA</h2>
@@ -240,7 +240,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={ten} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
+      <img src={ten} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>DANCE WING</h1>
@@ -254,7 +254,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
+      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>MUSIC WING</h1>
@@ -268,7 +268,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={thirteen} alt="Avatar" style={{width:"300px",height:"300px"}}/>
+      <img src={thirteen} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>IT WING</h1>
@@ -283,7 +283,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
+      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>ART WING</h1>
