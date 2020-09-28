@@ -31,11 +31,11 @@
     background:#fff;
     text-align:center;
     font-size:36px;
-    box-shadow:0 0 0 #8c00ff
+    box-shadow:0 0 0 #98ecc2
   }
   
   input:checked ~ .toogle{
-    box-shadow: 0 0 0 320px #8c00ff;
+    box-shadow: 0 0 0 320px #98ecc2;
     transform:rotate(225deg)
   }
 
