@@ -243,8 +243,8 @@ class Main extends Component {
       <img src={ten} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
     </div>
     <div className="flip-card-back">
-    <h1>DANCE WING</h1>
-    <p>This wing stuns everyone with their moves.</p>
+    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>DANCE WING</h1>
+    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wing stuns everyone with their moves.</p>
     </div>
   </div>
 </div>
@@ -257,8 +257,8 @@ class Main extends Component {
       <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
     </div>
     <div className="flip-card-back">
-    <h1>MUSIC WING</h1>
-    <p>This wings creates melody.</p>
+    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>MUSIC WING</h1>
+    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wings creates melody.</p>
     </div>
   </div>
 </div>
@@ -271,8 +271,8 @@ class Main extends Component {
       <img src={thirteen} alt="Avatar" style={{width:"300px",height:"300px"}}/>
     </div>
     <div className="flip-card-back">
-    <h1>IT WING</h1>
-    <p>This wings handles the technical stuff.</p>
+    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>IT WING</h1>
+    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wings handles the technical stuff.</p>
     </div>
   </div>
 </div>
@@ -286,8 +286,8 @@ class Main extends Component {
       <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}}/>
     </div>
     <div className="flip-card-back">
-    <h1>ART WING</h1>
-    <p>This wings add colors to the world.</p>
+    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>ART WING</h1>
+    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wings add colors to the world.</p>
     </div>
   </div>
 </div>

@@ -32,7 +32,7 @@ const Footer = () => {
                         </p>
                         <ul className="footer_social">
                             <li>
-                                <a href="https://www.facebook.com/spicmacaynitd/"><i className="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/spicmacaynitd/"><i className="fa fa-facebook-f"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/channel/UCJP84NlZI4fTP20cHPLo7Lw/featured"><i className="fa fa-youtube"></i></a>

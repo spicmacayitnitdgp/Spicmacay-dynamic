@@ -21,7 +21,9 @@
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
-  
+  .coi{
+    color:black !important;
+  }
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
@@ -37,17 +39,17 @@
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-color:#F5FFFA;
     border:1px solid black;
     border-radius:10px !important;
     color: black;
   }
   
   .flip-card-back {
-    background-color:#aaa9ad;
+    background-color:#F5FFFA;
     border:1px solid black;
     border-radius:10px !important;
-    color: white;
+    color: #F5FFFA;
     transform: rotateY(180deg);
   }
 

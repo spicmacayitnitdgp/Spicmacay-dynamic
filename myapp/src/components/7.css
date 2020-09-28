@@ -403,13 +403,13 @@ footer .footer_social li a {
   border-radius: 50px;
   padding: 7px 0;
   font-size: 24px;
-  color: #f50136;
+  color: white;
   width: 40px;
   height: 40px;
   text-align: center;
 }
 footer .footer_social li a:hover {
-  background-color: #f50136;
+  background-color: white;
   color: #ffffff;
 }
 footer ul.instagram_list {

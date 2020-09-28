@@ -1,7 +1,7 @@
 
 .gallery-header{
   width: 98%;
-  background-color:#8076a3;
+  background-color:#F5FFFA;
   height: 75px;
   margin: 0 auto;
   border-radius: 50px;
@@ -22,7 +22,7 @@
   column-gap: 35px;
   row-gap: 15px;
   grid-auto-flow: dense;
-  background-color:#8076a3 !important;
+  background-color:#F5FFFA !important;
   border-radius: 40px;
   margin: 10px;
   padding: 25px;
