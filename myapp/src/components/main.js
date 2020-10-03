@@ -135,7 +135,7 @@ class Main extends Component {
                     creates a vibrant environment . Everyone delves into the madness of this colourful festival and
                     enjoys every bit of time.</p>
                         {/* <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button> */}
-                      <Link to={{pathname:"/eventdis",state:{
+                      <Link to={{pathname:"/event",state:{
                           type:"UTTRAYAN"
                       }}}>
                           SEE ARTICLES
@@ -155,7 +155,7 @@ class Main extends Component {
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
                         opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
                             {/* <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button> */}
-                            <Link to={{pathname:"/eventdis",state:{
+                            <Link to={{pathname:"/event",state:{
                           type:"ANUBHAV"
                       }}}>
                           SEE ARTICLES
@@ -181,7 +181,7 @@ class Main extends Component {
                 what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
                 its finest.</p>
 
-                    <Link to={{pathname:"/eventdis",state:{
+                    <Link to={{pathname:"/event",state:{
                           type:"INDIKA"
                       }}}>
                           SEE ARTICLES
