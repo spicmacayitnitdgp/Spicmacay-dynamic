@@ -15,8 +15,10 @@ import {
 import { RECORD_SERVER } from '../../utils/misc';
 
 
-export function adddetails(data){
-    const request = axios.post(`${RECORD_SERVER}/adddetail`,data)
+export function adddetails(data,password){
+    console.log(password)
+    const datar={data, password}
+    const request = axios.post(`${RECORD_SERVER}/adddetail`,datar)
         .then(response => response.data);
     
     return {
@@ -25,8 +27,9 @@ export function adddetails(data){
     }
 }
 
-export function addevents(data){
-    const request = axios.post(`${RECORD_SERVER}/addevents`,data)
+export function addevents(data,password){
+    const datar={data, password}
+    const request = axios.post(`${RECORD_SERVER}/addevents`,datar)
         .then(response => response.data);
     
     return {

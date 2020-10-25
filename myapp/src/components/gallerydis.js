@@ -9,11 +9,9 @@ class GalleryDis extends Component {
     }
     componentWillMount=()=>{
         this.props.dispatch(allgallery()).then(res=>{
-         console.log(res.payload)
             this.setState({
                 images:res.payload
             })
-            console.log(this.state.images[0])
         }).catch(err=>console.log(err))
     }
     render() {

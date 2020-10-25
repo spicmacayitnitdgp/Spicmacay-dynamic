@@ -10,6 +10,7 @@ class Gallery extends Component {
     state={
         formSuccess:false,
         formError:false,
+        val:'',
         formdata:{
             name: {
                 element:'input',
@@ -50,12 +51,10 @@ updateform=(element)=>{
 submitform=(event)=>{
     event.preventDefault();
     const isformvalid=validform(this.state.formdata,'register')
-    console.log(isformvalid)
     const data=generatedata(this.state.formdata,'register')
     if(true){
-        this.props.dispatch(adddetails(data)).then((response)=>{
+        this.props.dispatch(adddetails(data,this.state.val)).then((response)=>{
             if(response.payload.success){
-             console.log(response.payload)
                 this.setState({
                     formSuccess:true,
                     formError:false
@@ -64,15 +63,16 @@ submitform=(event)=>{
                 window.location.reload();
             }
                 else{
+
                     this.setState({
                         formError:true
                     })
+                    alert("Wrong Password")
                 }
             }
         )}
     }
 imageHandler=(images)=>{
-    console.log(images)
     const newFormData={
         ...this.state.formdata
     }
@@ -82,9 +82,14 @@ imageHandler=(images)=>{
           formData:newFormData
       })
 
-      console.log(this.state.formdata.images)
+ 
 }
-
+entry=(event)=>{
+    this.setState({
+        val:event.target.value
+    })
+ 
+}
     render() {
         console.log(this.props)
         return (
@@ -102,6 +107,7 @@ imageHandler=(images)=>{
             <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             <div className="jumbotron">
 
+             
             <div className="row">
              <div className="each">
                <FormFields
@@ -109,6 +115,14 @@ imageHandler=(images)=>{
                   id={'name'}
                   change={(event)=>{this.updateform(event)}}
                 />
+            </div>
+            </div>
+
+            <div className="row">
+            <h4>PASSWORD</h4>
+             <div className="each">
+                
+               <input type="password" value={this.state.val} onChange={(event)=>{this.entry(event)}}/>
             </div>
             </div>
 

@@ -10,6 +10,7 @@ class Details extends Component {
     state={
         formSuccess:false,
         formError:false,
+        val:'',
         formdata:{
         name: {
             element:'input',
@@ -82,11 +83,9 @@ updateform=(element)=>{
 submitform=(event)=>{
     event.preventDefault();
     const isformvalid=validform(this.state.formdata,'register')
-    console.log(isformvalid)
     const data=generatedata(this.state.formdata,'register')
-    console.log(this.props.user.member)
     if(true){
-        this.props.dispatch(addevents(data)).then((response)=>{
+        this.props.dispatch(addevents(data,this.state.val)).then((response)=>{
             if(response.payload.success){
              console.log('hurray')
                 this.setState({
@@ -100,12 +99,12 @@ submitform=(event)=>{
                     this.setState({
                         formError:true
                     })
+                    alert("Wrong Password")
                 }
             }
         )}
     }
 imageHandler=(images)=>{
-    console.log(images)
     const newFormData={
         ...this.state.formdata
     }
@@ -115,11 +114,16 @@ imageHandler=(images)=>{
           formData:newFormData
       })
 
-      console.log(this.state.formdata.images)
+   
 }
 
+entry=(event)=>{
+    this.setState({
+        val:event.target.value
+    })
+ 
+}
     render() {
-        console.log(this.props)
         return (
             <div className="container">
             <div className='add'>
@@ -135,6 +139,14 @@ imageHandler=(images)=>{
             <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             <div className="jumbotron">
 
+
+            <div className="row">
+            <h4>PASSWORD</h4>
+             <div className="each">
+             <input type="password" value={this.state.val} onChange={(event)=>{this.entry(event)}}/>
+            </div>
+            </div>
+
             <div className="row">
              <div className="each">
                <FormFields
@@ -144,6 +156,7 @@ imageHandler=(images)=>{
                 />
             </div>
             </div>
+            
 
             <div className="row">
              <div className="each">

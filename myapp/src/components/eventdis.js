@@ -6,12 +6,10 @@ class Eventdis extends Component {
     state={
     }
     componentWillMount=()=>{
-        console.log(this.props.location.state.type)
             this.props.dispatch(searchyear(this.props.location.state.type)).then(res=>{
                 this.setState({
                     results:res.payload.resyr
                 })
-                console.log(this.state.results[0].images[0].original)
             }).catch(err=>{
                 console.log(err)
             })

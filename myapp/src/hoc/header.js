@@ -5,7 +5,6 @@ class Header extends Component {
   
    
     render() {
-      console.log(this.props.user.userData)
         return (
   
                

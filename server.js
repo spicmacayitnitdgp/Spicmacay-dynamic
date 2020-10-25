@@ -11,6 +11,7 @@ const {Gallery}=require("./server/models/gallery")
 const jwt=require('jsonwebtoken')
 var nodemailer = require('nodemailer');
 var compression = require('compression'); 
+const bcrypt=require('bcrypt')
 
 const app=express()
 require('dotenv').config();
@@ -106,8 +107,35 @@ app.get('/api/records/allgallery',(req,res)=>{
  
 
 app.post('/api/records/adddetail',(req,res)=>{
-  
-    const record = new Gallery(req.body);
+    
+    bcrypt.compare(req.body.password,'$2b$10$0MKA9k.EPn0eCzFXqfBaTe9ngeghwA/dy45mikj9OV6oymsa.EYtC',function(err,isMatch){
+        if(!isMatch) {
+         res.send(err)
+        }
+        if (isMatch){
+        
+         const record = new Gallery(req.body.data);
+         record.save((err,doc)=>{
+        console.log(err)
+        if(err) return res.json({success:false,err});
+        res.status(200).json({
+            success: true,doc
+        })
+        
+    })
+        }
+    } )
+
+})
+
+app.post('/api/records/addevents',(req,res)=>{
+    bcrypt.compare(req.body.password,'$2b$10$0MKA9k.EPn0eCzFXqfBaTe9ngeghwA/dy45mikj9OV6oymsa.EYtC',function(err,isMatch){
+        if(!isMatch) {
+         res.send(err)
+        }
+        if (isMatch){
+    
+    const record = new Event(req.body.data);
     record.save((err,doc)=>{
         console.log(err)
         if(err) return res.json({success:false,err});
@@ -116,18 +144,7 @@ app.post('/api/records/adddetail',(req,res)=>{
         })
         console.log(doc.name)  
     })
-})
-
-app.post('/api/records/addevents',(req,res)=>{
-  
-    const record = new Event(req.body);
-    record.save((err,doc)=>{
-        console.log(err)
-        if(err) return res.json({success:false,err});
-        res.status(200).json({
-            success: true,doc
-        })
-        console.log(doc.name)  
+}
     })
 })
 
