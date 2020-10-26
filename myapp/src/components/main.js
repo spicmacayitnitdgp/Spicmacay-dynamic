@@ -149,7 +149,7 @@ class Main extends Component {
                 </div>
                    <div className="detail">
                        <h2 className="titl" style={{fontSize:'15px !important',color:"#EEE2DC"}}>ANUBHAV</h2>
-                       <p className="info" style={{fontSize:"14px"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
+                       <p className="info" style={{fontSize:"14px" ,color:"#EEE2DC"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
                         BMEP join hands every year to organise its annual art workshop, Anubhav. This one of a kind art
                         workshop focuses to bring the colourful flare of creativity among the underprivileged children
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
