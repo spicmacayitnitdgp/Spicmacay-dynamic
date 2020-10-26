@@ -18,7 +18,7 @@ class Eventdis extends Component {
     render() {
         return (
             <div className="events">
-                <div className="event-header"><p>Events</p></div>
+                <div className="event-header"><p style={{fontFamily:'Aeonix',color:'#AC3B61'}}>Events</p></div>
                  {
                     this.state.results?
                     this.state.results.length>0 ?

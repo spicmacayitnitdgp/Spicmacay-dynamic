@@ -55,7 +55,7 @@
 
   
 body{
- background-color: yellow;
+ background-color: #EDC7B7;
 }
 .sidenav {
     height: 100%;
@@ -80,7 +80,40 @@ body{
     transition: 0.3s;
     
   }
-  
+  p{
+    font-family: 'Aeonik' !important;
+    font-style:normal !important
+  }
+  h1{
+    font-family: 'Gilroy ' !important;
+    font-style:normal !important;
+    font-weight:1000 !important;
+  }
+  h2{
+    font-family: 'Gilroy ' !important;
+    font-style:normal !important;
+    font-weight:800 !important;
+  }
+  h3{
+    font-family: 'Gilroy ' !important;
+    font-style:normal !important;
+    font-weight:800 !important;
+  }
+  h4{
+    font-family: 'Gilroy ' !important;
+    font-style:normal !important;
+    font-weight:800;
+  }
+  h5{
+    font-family: 'Gilroy ' !important;
+    font-style:normal !important;
+    font-weight:800 !important;
+  }
+  h6{
+    font-family: 'Gilroy ' !important;
+    font-style:normal !important;
+    font-weight:1000 !important;
+  }
   a{
     opacity: 1;
   }

@@ -31,25 +31,26 @@
     background:#fff;
     text-align:center;
     font-size:36px;
-    box-shadow:0 0 0 #98ecc2
+    box-shadow:0 0 0 #123C69
   }
   
   input:checked ~ .toogle{
-    box-shadow: 0 0 0 320px #98ecc2;
+    box-shadow: 0 0 0 320px #123C69;
     transform:rotate(225deg)
   }
 
   .descp{
-    color:black;
+    color:#EEE2DC !important;
     font-size:20px;
     padding:8px;
+    font-family:"Aeonix";
     font-weight:300;
-    color:white;
     margin-left:10px
     }
     .name{
-      color:black;
+      color:#EEE2DC !important;
       font-size:20px;
+      font-family:"Aeonix"; 
       padding:8px;
       font-weight:300;
       color:darkblue;

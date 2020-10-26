@@ -77,11 +77,11 @@ class Main extends Component {
            
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
                 
-            <h1 style={{textAlign:'center'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
+            <h1 style={{textAlign:'center',fontSize:'40px',color:'#AC3B61'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
                 <div className="circle">
 
                 </div>
-                <p style={{fontFamily:"Merriweather !important", fontStyle:'normal !important', wordWrap:'break-word'}}>SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
+                <p style={{fontFamily:"Merriweather !important", fontStyle:'normal !important', wordWrap:'break-word',color:'#AC3B61'}}>SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
                     by Dr Kiran Seth, Professor-Emeritus at IIT-Delhi who was awarded the ‘Padma Shri’ for his contribution to the arts in 2009.
                    SPICMACAY’s intention is to enrich the quality of formal education by increasing awareness about different aspects of Indian heritage 
                    and inspiring the young mind to imbibe the values embedded in it. It seeks to inspire youth through experiencing the mysticism embodied
@@ -100,15 +100,15 @@ class Main extends Component {
         {/* <!-- Events -->
      <!-- Enter pictures of events here --> */}
           {/* <p className="events" style={{color:"black",textAlign:"center !important",marginLeft:"20px"}}>EVENTS</p> */}
-          <h1 style={{textAlign:"center"}}> EVENTS</h1>
+          <h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> EVENTS</h1>
      <div className="contain1" >
     <div className="card">
         <div className="imgcard">
            <img className="images" src={one} loading="lazy"/>
         </div>
            <div className="detail">
-               <h2 className="titl">VIRASAT</h2>
-               <p className="info">VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
+               <h2 className="titl" style={{fontSize:'15px !important',color:"#EEE2DC"}}>VIRASAT</h2>
+               <p className="info" style={{fontSize:'14px',fontFamily:'Aeonik !important',color:"#EEE2DC"}}>VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
                 The perfect blend of gorgeous grace with sonorous tune swirls in the flavour of Indian culture
                 and tradition. Esteemed artists of the likes of Pt Viswa Mohan Bhatt(Grammy Award
                 Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
@@ -117,7 +117,7 @@ class Main extends Component {
                     {/* <button onclick=""><a href="./loader2.html">READ MORE</a></button> */}
                     <Link to={{pathname:"/event",state:{
                           type:"virasat"
-                      }}}>
+                      }}} style={{fontSize:'10px',textAlign:"center"}}>
                           SEE ARTICLES
                           </Link>  
 
@@ -129,15 +129,15 @@ class Main extends Component {
                <img className="images" src={twonine} loading="lazy"/>
             </div>
                <div className="detail">
-                   <h2 className="titl">UTTRAYAN</h2>
-                   <p className="info">Uttarayan is the annual kite festival of SPIC MACAY NIT Durgapur Chapter. It is celebrated every
+                   <h2 className="titl" style={{fontSize:'15px !important',color:"#EEE2DC"}} >UTTRAYAN</h2>
+                   <p className="info" style={{fontSize:'14px',fontFamily:'Aeonik !important',color:"#EEE2DC"}}>Uttarayan is the annual kite festival of SPIC MACAY NIT Durgapur Chapter. It is celebrated every
                     year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
                     creates a vibrant environment . Everyone delves into the madness of this colourful festival and
                     enjoys every bit of time.</p>
                         {/* <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button> */}
                       <Link to={{pathname:"/event",state:{
                           type:"UTTRAYAN"
-                      }}}>
+                      }}} style={{fontSize:'10px'}}>
                           SEE ARTICLES
                           </Link>  
                </div> 
@@ -148,8 +148,8 @@ class Main extends Component {
                    <img className="images" src={seventeen} loading="lazy"/>
                 </div>
                    <div className="detail">
-                       <h2 className="titl">ANUBHAV</h2>
-                       <p className="info" style={{fontSize:"10px"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
+                       <h2 className="titl" style={{fontSize:'15px !important',color:"#EEE2DC"}}>ANUBHAV</h2>
+                       <p className="info" style={{fontSize:"14px"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
                         BMEP join hands every year to organise its annual art workshop, Anubhav. This one of a kind art
                         workshop focuses to bring the colourful flare of creativity among the underprivileged children
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
@@ -157,7 +157,7 @@ class Main extends Component {
                             {/* <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button> */}
                             <Link to={{pathname:"/event",state:{
                           type:"ANUBHAV"
-                      }}}>
+                      }}} style={{fontSize:"10px"}} >
                           SEE ARTICLES
                           </Link>  
                    </div> 
@@ -173,8 +173,8 @@ class Main extends Component {
            <img className="images" src={indika} loading="lazy"/>
         </div>
            <div className="detail">
-               <h2 className="titl">INDIKA</h2>
-               <p className="info">VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
+               <h2 className="titl" style={{fontSize:"15px !important",color:"#EEE2DC"}}>INDIKA</h2>
+               <p className="info" style={{fontSize:"14px",color:"#EEE2DC"}}>VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
                 The perfect blend of gorgeous grace with sonorous tune swirls in the flavour of Indian culture
                 and tradition. Esteemed artists of the likes of Pt Viswa Mohan Bhatt(Grammy Award
                 Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
@@ -183,7 +183,7 @@ class Main extends Component {
 
                     <Link to={{pathname:"/event",state:{
                           type:"INDIKA"
-                      }}}>
+                      }}} style={{fontSize:"10px"}}>
                           SEE ARTICLES
                           </Link>  
            </div> 
@@ -234,7 +234,7 @@ class Main extends Component {
 
 
 {/* <!-- wings --> */}
-<h1 style={{textAlign:"center"}}> WINGS</h1>
+<h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> WINGS</h1>
 <div className="row">
     <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
 <div className="flip-card">
@@ -243,8 +243,8 @@ class Main extends Component {
       <img src={ten} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
-    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>DANCE WING</h1>
-    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wing stuns everyone with their moves.</p>
+    <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>DANCE WING</h1>
+    <p style={{marginTop:"20px",color:"#EEE2DC",fontFamily:"Gilroy",fontSize:'15px'}}>This wing stuns everyone with their moves.</p>
     </div>
   </div>
 </div>
@@ -257,8 +257,8 @@ class Main extends Component {
       <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
-    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>MUSIC WING</h1>
-    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wings creates melody.</p>
+    <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>MUSIC WING</h1>
+    <p style={{marginTop:"20px",color:"#EEE2DC",fontFamily:"Gilroy",fontSize:'15px'}}>This wings creates melody.</p>
     </div>
   </div>
 </div>
@@ -271,8 +271,8 @@ class Main extends Component {
       <img src={thirteen} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
-    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>IT WING</h1>
-    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wings handles the technical stuff.</p>
+    <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>IT WING</h1>
+    <p style={{marginTop:"20px",color:"#EEE2DC",fontFamily:"Gilroy",fontSize:'15px'}}>This wings handles the technical stuff.</p>
     </div>
   </div>
 </div>
@@ -286,8 +286,8 @@ class Main extends Component {
       <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
-    <h1 className='coi' style={{marginTop:"100px",fontFamily:"Algerian"}}>ART WING</h1>
-    <p style={{marginTop:"20px",color:"black !important",fontFamily:"algerian"}}>This wings add colors to the world.</p>
+    <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>ART WING</h1>
+    <p style={{marginTop:"20px",color:"#EEE2DC",fontFamily:"Gilroy",fontSize:'15px'}}>This wings add colors to the world.</p>
     </div>
   </div>
 </div>

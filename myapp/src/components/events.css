@@ -1,6 +1,6 @@
 
 .event{
-    background:white;
+    background:#123C69;
     height: 500px;
     width:80%;
     padding:10px;
@@ -34,14 +34,17 @@
     height: 100%;
     align-content: center;
     float:right;
+    font-family: 'Aeonix' !important;
 }
 .event-text h1{
    width: 100%;
-   border:3px solid black;
+   border:3px solid #EEE2DC;
    border-radius: 10px;
-   color:black;
+   color:#EEE2DC;
+   font-family: 'Aeonix' !important;
 }
 
 #event-para h5{
-    color:black;
+    color:#EEE2DC;
+    font-family: 'Aeonix' !important;
 }

@@ -80,9 +80,9 @@ class Team extends Component {
         return (
             <div>
                
-    <h1 className="events" id="teammembers" style={{color:"black"}}>OUR TEAM</h1>
+    <h1 className="events" id="teammembers" style={{color:"#AC3B61",fontFamily:'Gilroy'}}>OUR TEAM</h1>
 
-<h3 className="events" id="teammembers" style={{color:"black"}}>4th Year</h3>
+<h3 className="events" id="teammembers" style={{color:"#AC3B61",fontFamily:'Gilroy'}}>4th Year</h3>
 <div className="members row">
    
    
@@ -481,7 +481,7 @@ class Team extends Component {
  </div>
   
 
-  <h3 className="events" id="teammembers" style={{color:"black"}}>3rd Year</h3>
+  <h3 className="events" id="teammembers" style={{color:"#AC3B61",fontFamily:'Gilroy'}}>3rd Year</h3>
 <div className="members row">
    
    

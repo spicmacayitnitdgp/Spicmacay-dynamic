@@ -21,7 +21,7 @@ const Footer = () => {
                         <p>
                             <div className="address">
                             <p style={{fontSize:"25px", fontFamily: "Arial", fontWeight:"800",color:"white"}}>Address</p> <br/>
-                            <p style={{fontSize:"16px",color:"white"}}>National Institute of Technology Durgapur <br/> राष्ट्रीय प्रौद्योगिकी संस्थान दुर्गापुर </p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}>National Institute of Technology Durgapur <br/> राष्ट्रीय प्रौद्योगिकी संस्थान दुर्गापुर </p>
                             <p style={{fontSize:"14px",color:"white"}}>(An Institute of National Importance under Government of India, <br/>Ministry of Human Resource Development)
                             <br/>Mahatma Gandhi Avenue, Durgapur 713209, West Bengal, INDIA</p>
                         </div>
@@ -53,13 +53,13 @@ const Footer = () => {
                     </div>
                     <div className="footer_box_body">
                         <p>
-                            <p style={{fontSize:"16px", color:"white"}}><b><i>President: </i></b>Akshat Jain</p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>President:</b>Akshat Jain</p>
                             <p><i className="fa fa-phone">&nbsp;<a href="tel:+8004937056"> +91 8004937056</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:aritra240@gmail.com">  aritra240@gmail.com</a></i></p>
                             <p></p>
-                            <p style={{fontSize:"16px",color:"white"}}><b><i>Vice President: </i></b>Sohom Mukherjee</p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Vice President:</b>Sohom Mukherjee</p>
                             <p><i className="fa fa-phone"><a href="tel:+">&nbsp; +91 9123077107 </a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:tiasha.biswas@gmail.com"> tiasha.biswas@gmail.com</a></i></p>
                             <p></p>
-                            <p style={{fontSize:"16px",color:"white"}}><b><i>Secretary : </i></b>Sankalp Choubey</p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Secretary :</b>Sankalp Choubey</p>
                             <p><i className="fa fa-phone"><a href="tel:+8788981871">&nbsp; +91 8788981871</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:rajdeepgolder@gmail.com">rajdeepgolder@gmail.com</a></i></p>
                         </p>
                     </div>

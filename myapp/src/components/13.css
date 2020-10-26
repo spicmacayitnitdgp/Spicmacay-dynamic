@@ -39,14 +39,14 @@
   }
   
   .flip-card-front {
-    background-color:#F5FFFA;
+    background-color:#123C69;
     border:1px solid black;
     border-radius:10px !important;
     color: black;
   }
   
   .flip-card-back {
-    background-color:#F5FFFA;
+    background-color:#123C69;
     border:1px solid black;
     border-radius:10px !important;
     color: #F5FFFA;
