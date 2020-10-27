@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="col-md-4 col-12">
                 <div className="footer_box">
                     <div className="footer_header">
-                        <div className="footer_logo">
+                        <div className="footer_logo" style={{marginLeft:'80px'}}>
                            <a href="https://spicmacay.org/"> <img src={logo} alt="evento" loading="lazy"/> </a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="col-md-4 col-12">
                 <div className="footer_box">
                     <div className="footer_header">
-                        <div className="footer_logo">
+                        <div className="footer_logo" style={{marginLeft:'80px'}}>
                             <img src={logo} alt="evento" loading="lazy"/>
                         </div>
                     </div>
