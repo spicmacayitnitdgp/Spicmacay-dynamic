@@ -1,8 +1,7 @@
   
-  /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;
-    max-width: 800px;
+    max-width: 560px;
     margin: 0 auto;
   }
   
@@ -46,19 +45,19 @@
   }
   #parat{
     font-family:'Times New Roman', Times, serif;
-    
     font-weight:200;
     font-size:20px;
   }
   /* Place the container to the left */
   .left {
-    left: 0;
+    left: 0%;
   }
   
   /* Place the container to the right */
   .right {
     left: 50%;
   }
+
   
   /* Add arrows to the left container (pointing right) */
   .left::before {
@@ -69,7 +68,7 @@
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid #123C69;
+    border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #123C69;
   }

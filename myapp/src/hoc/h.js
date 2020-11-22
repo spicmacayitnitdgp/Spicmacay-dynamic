@@ -35,4 +35,11 @@ class Header extends Component {
     }
 }
 
-export default Header;
+const mapStateToProps=(state)=>{
+    return{
+      user:state.member,
+    }
+      
+}
+
+export default connect(mapStateToProps)(Header);
