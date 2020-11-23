@@ -32,19 +32,18 @@
     max-width: 1000px;
     margin: auto;
     display:flex;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;   
     justify-content: space-around;
 }
+
 .contain1{
   max-width: 1000px;
   margin: auto ;
   display:flex;
-  
   flex-wrap: wrap;
- 
   justify-content: space-around;
 }
+
  .card{
     position: relative;
     margin-left:20px;
@@ -65,7 +64,6 @@
     box-shadow: inset 20px 0 50px #000;
 }
 
-
 .card .imgcard{
   position:relative;
   width:100%;
@@ -76,8 +74,6 @@
   z-index:1;
   transition:1s;
 }
-
-
 
 .card:hover .imgcard{
   transform: rotateY(-135deg);

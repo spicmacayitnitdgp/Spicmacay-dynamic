@@ -34,17 +34,17 @@
     height: 100%;
     align-content: center;
     float:right;
-    font-family: 'Aeonix' !important;
+    font-family: 'Montserrat' !important;
 }
 .event-text h1{
    width: 100%;
    border:3px solid #EEE2DC;
    border-radius: 10px;
    color:#EEE2DC;
-   font-family: 'Aeonix' !important;
+   font-family: 'Montserrat' !important;
 }
 
 #event-para h5{
     color:#EEE2DC;
-    font-family: 'Aeonix' !important;
+    font-family: 'Montserrat' !important;
 }
