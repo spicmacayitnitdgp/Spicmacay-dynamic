@@ -421,7 +421,7 @@ footer .footer_header {
 footer .footer_social {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-left: 70px;
 }
 footer .footer_social li {
   display: inline-block;
