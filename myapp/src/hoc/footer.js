@@ -31,14 +31,17 @@ const Footer = () => {
                         </div>
                         </p>
                         <ul className="footer_social">
-                            <li>
+                            <li className="face">
                                 <a href="https://www.facebook.com/spicmacaynitd/"><i className="fa fa-facebook"></i></a>
                             </li>
-                            <li>
+                            <li className="utube">
                                 <a href="https://www.youtube.com/channel/UCJP84NlZI4fTP20cHPLo7Lw/featured"><i className="fa fa-youtube"></i></a>
                             </li>
-                            <li>
+                            <li className="insta">
                                 <a href="https://www.instagram.com/spic.macay_nitd"><i className="fa fa-instagram"></i></a>
+                            </li>
+                            <li className="din">
+                                <a href="https://www.instagram.com/spic.macay_nitd"><i className="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
