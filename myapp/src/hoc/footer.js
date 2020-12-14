@@ -57,7 +57,7 @@ const Footer = () => {
                     <div className="footer_box_body">
                         <p>
                             <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>President:</b>Akshat Jain</p>
-                            <p><i className="fa fa-phone">&nbsp;<a href="tel:+8004937056"> +91 8004937056</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:aritra240@gmail.com">  aritra240@gmail.com</a></i></p>
+                            <p><i className="fa fa-phone">&nbsp;<a href="tel:+8004937056"> +91 8004937056</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:akshat7321.aj@gmail.com">  aritra240@gmail.com</a></i></p>
                             <p></p>
                             <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Vice President:</b>Sohom Mukherjee</p>
                             <p><i className="fa fa-phone"><a href="tel:+">&nbsp; +91 9123077107 </a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:tiasha.biswas@gmail.com"> tiasha.biswas@gmail.com</a></i></p>

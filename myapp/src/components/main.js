@@ -9,7 +9,6 @@ import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
 import indika from './images/indika.jpg'
 import one from "./images/1.jpg"
-import logo from "./images/logo.png"
 import {connect} from "react-redux"
 import eleven from "./images/11.jpg" 
 import { searchyear } from './actions/recordactions';
@@ -77,7 +76,7 @@ class Main extends Component {
            
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
                 
-            <h1 style={{textAlign:'center',fontSize:'40px',color:'#AC3B61'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
+            <h1 style={{textAlign:'center',fontSize:'40px',color:'#AC3B61',marginLeft:'20px'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
                 <div className="circle">
 
                 </div>
@@ -101,6 +100,7 @@ class Main extends Component {
      <!-- Enter pictures of events here --> */}
           {/* <p className="events" style={{color:"black",textAlign:"center !important",marginLeft:"20px"}}>EVENTS</p> */}
           <h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> EVENTS</h1>
+          <br></br><br></br>
      <div className="contain1" >
     <div className="card">
         <div className="imgcard">
@@ -166,7 +166,7 @@ class Main extends Component {
                         
 </div>        
 
-
+<br></br>
      <div className="contain1" >
     <div className="card">
         <div className="imgcard">
@@ -231,10 +231,13 @@ class Main extends Component {
 </div>
 
  <br/><br/>
+ <br/><br/>
+ <br/><br/>
 
 
 {/* <!-- wings --> */}
 <h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> WINGS</h1>
+<br></br><br></br>
 <div className="row">
     <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
 <div className="flip-card">
