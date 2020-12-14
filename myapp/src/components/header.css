@@ -8,13 +8,19 @@
   #insta{
     background: linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     color: white;
-    border-radius: 50% !important;
+    border-radius: 50px !important;
+    width:40px;
+    border:solid 1px;
+    height:40px
   }
   
   #utube{
     background: #bb0000;
     color: white;
-    border-radius: 50% !important;
+    border-radius: 50px !important;
+    width:40px;
+    border:solid 1px;
+    height:40px;
   }
   .fa-instagram {
     background: linear-gradient(45deg, #405de6,#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
@@ -27,7 +33,10 @@
   #din{
     background: #007bb5;
     color: white !important;
-    border-radius: 50%;
+    border-radius: 50px !important;
+    width:40px;
+    border:solid 1px;
+    height:40px
   }
   .fa-facebook {
     background: #3B5998;
@@ -36,5 +45,8 @@
   #face{
     background: #3B5998;
     color: white;
-    border-radius: 50% !important;
+    border-radius: 50px !important;
+    width:40px;
+    border:solid 1px;
+    height:40px
   }

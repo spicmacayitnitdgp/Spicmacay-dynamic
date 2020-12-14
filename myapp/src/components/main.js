@@ -60,23 +60,13 @@ class Main extends Component {
 </div>
 
 
-    {/* <!-- Virasat --> */}
-    {/* <!-- <div className="row">
-    <div className="virasat col-lg-12 col-sm-12 col-xs-12 col-md-12">
-    <div className="zoom">
-   <img src="./images/1.jpg" id="piczoom"/>
-    </div>
-    </div>
-    </div>
-    -->
-
-         <!-- description --> */}
          <br/><br/>
          <div className="row" id="about">
            
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
                 
             <h1 style={{textAlign:'center',fontSize:'40px',color:'#AC3B61',marginLeft:'20px'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
+            <br></br>
                 <div className="circle">
 
                 </div>
@@ -102,7 +92,7 @@ class Main extends Component {
           <h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> EVENTS</h1>
           <br></br><br></br>
      <div className="contain1" >
-    <div className="card">
+    <div className="card" style={{marginRight:"40px"}}>
         <div className="imgcard">
            <img className="images" src={one} loading="lazy"/>
         </div>
@@ -124,7 +114,7 @@ class Main extends Component {
            </div> 
     </div>
 
-    <div className="card">
+    <div className="card" style={{marginRight:"40px"}}>
             <div className="imgcard">
                <img className="images" src={twonine} loading="lazy"/>
             </div>
@@ -166,6 +156,7 @@ class Main extends Component {
                         
 </div>        
 
+<br></br>
 <br></br>
      <div className="contain1" >
     <div className="card">
