@@ -632,8 +632,10 @@ body{
 }
 
 .circle{
+
   background-image:url("./images/lo.jpg");
-  background-size:cover ;
+  background-size:120px 113px ;
+  background-repeat: no-repeat;
   width:120px;
   height:120px;
   border-radius:50%;
