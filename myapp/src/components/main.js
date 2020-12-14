@@ -92,8 +92,8 @@ class Main extends Component {
           <h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> EVENTS</h1>
           <br></br><br></br>
      <div className="contain1" >
-    <div className="card" style={{marginRight:"40px"}}>
-        <div className="imgcard">
+    <div className="card" style={{marginRight:"40px",borderRadius:'10px'}}>
+        <div className="imgcard" style={{borderRadius:'10px'}}>
            <img className="images" src={one} loading="lazy"/>
         </div>
            <div className="detail">
@@ -114,8 +114,8 @@ class Main extends Component {
            </div> 
     </div>
 
-    <div className="card" style={{marginRight:"40px"}}>
-            <div className="imgcard">
+    <div className="card" style={{marginRight:"40px",borderRadius:'10px'}}>
+            <div className="imgcard" style={{borderRadius:'10px'}}>
                <img className="images" src={twonine} loading="lazy"/>
             </div>
                <div className="detail">
@@ -133,8 +133,8 @@ class Main extends Component {
                </div> 
             
         </div>
-        <div className="card">
-                <div className="imgcard">
+        <div className="card" style={{borderRadius:'10px'}}>
+                <div className="imgcard" style={{borderRadius:'10px'}}>
                    <img className="images" src={seventeen} loading="lazy"/>
                 </div>
                    <div className="detail">
@@ -159,8 +159,8 @@ class Main extends Component {
 <br></br>
 <br></br>
      <div className="contain1" >
-    <div className="card">
-        <div className="imgcard">
+    <div className="card" style={{borderRadius:'10px'}}>
+        <div className="imgcard" style={{borderRadius:'10px'}}>
            <img className="images" src={indika} loading="lazy"/>
         </div>
            <div className="detail">
