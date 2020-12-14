@@ -76,7 +76,7 @@ const Footer = () => {
                         </h4>
                     </div>
                     <div className="footer_box_body">
-                        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.577948545365!2d87.29095021453448!3d23.547677702408144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f772081cede5e9%3A0x33fb9ccb243dfa5!2sNational+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1541686389902" height="300px" style={{border:"0"}} allowfullscreen></iframe></div>
+                        <div><iframe defer loading="lazy"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.577948545365!2d87.29095021453448!3d23.547677702408144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f772081cede5e9%3A0x33fb9ccb243dfa5!2sNational+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1541686389902" height="300px" style={{border:"0"}} allowfullscreen></iframe></div>
                     </div>
                 </div>
             </div>
