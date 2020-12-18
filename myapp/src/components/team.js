@@ -71,7 +71,7 @@ import shubham from "./images/1st/shubham.jpg"
 import anupam from "./images/1st/anupam.jpg"
 import akansha from "./images/1st/akanksha.jpg"
 import prabhat from "./images/1st/prabhat.jpg"
-import sankita from "./images/1st/chitrita.jpg"
+import sankita from "./images/1st/sankita.jpg"
 import sayan from "./images/1st/sayan.jpg"
 import ankita from "./images/1st/ankita.jpg"
 
@@ -1107,23 +1107,7 @@ class Team extends Component {
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
 
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src="./images/2nd/arunima..jpg" /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Arunima Nishi Boishakhi
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-        Wing
-      </div>
-       </div></div>
-   </div>
+   
  </div>
 
 
