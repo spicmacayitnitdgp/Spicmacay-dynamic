@@ -105,7 +105,7 @@ class Main extends Component {
                 what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
                 its finest.</p>
                     {/* <button onclick=""><a href="./loader2.html">READ MORE</a></button> */}
-                    <Link to={{pathname:"/event",state:{
+                    <Link to={{pathname:"/virasat",state:{
                           type:"virasat"
                       }}} style={{fontSize:'10px',textAlign:"center"}}>
                           SEE ARTICLES
@@ -125,11 +125,11 @@ class Main extends Component {
                     creates a vibrant environment . Everyone delves into the madness of this colourful festival and
                     enjoys every bit of time.</p>
                         {/* <button onClick=""><a href="https://m.facebook.com/story.php?story_fbid=2868811669881868&id=840463576050031">READ MORE</a></button> */}
-                      <Link to={{pathname:"/event",state:{
+                      {/* <Link to={{pathname:"/event",state:{
                           type:"UTTRAYAN"
                       }}} style={{fontSize:'10px'}}>
                           SEE ARTICLES
-                          </Link>  
+                          </Link>   */}
                </div> 
             
         </div>
@@ -145,11 +145,11 @@ class Main extends Component {
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
                         opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
                             {/* <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button> */}
-                            <Link to={{pathname:"/event",state:{
+                            {/* <Link to={{pathname:"/event",state:{
                           type:"ANUBHAV"
                       }}} style={{fontSize:"10px"}} >
                           SEE ARTICLES
-                          </Link>  
+                          </Link>   */}
                    </div> 
             
             </div>
@@ -171,12 +171,12 @@ class Main extends Component {
                 Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
                 what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
                 its finest.</p>
-
+{/* 
                     <Link to={{pathname:"/event",state:{
                           type:"INDIKA"
                       }}} style={{fontSize:"10px"}}>
                           SEE ARTICLES
-                          </Link>  
+                          </Link>   */}
            </div> 
     {/* <div className="card">
             <div className="imgcard">

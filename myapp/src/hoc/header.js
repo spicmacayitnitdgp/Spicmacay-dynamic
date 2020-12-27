@@ -22,7 +22,8 @@ class Header extends Component {
         <ul className="navbar-nav ml-auto">
             <li className="nav-item"><Link className="nav-link" to='/' style={{fontSize:"20px",fontFamily:"Aeonik"}}>Home</Link></li>
             <li className="nav-item"><Link className="nav-link" to='/g' style={{fontSize:"20px",fontFamily:"Aeonik"}}>Gallery</Link></li>
-            <li className="nav-item"><Link className="nav-link" to='/o' style={{fontSize:"20px",fontFamily:"Aeonik"}}>Team</Link></li>     
+            <li className="nav-item"><Link className="nav-link" to='/o' style={{fontSize:"20px",fontFamily:"Aeonik"}}>Team</Link></li>
+            <li className="nav-item"><Link className="nav-link" to='/virasat' style={{fontSize:"20px",fontFamily:"Aeonik"}}>Virasat</Link></li>          
         </ul>
     </div>
 </nav>          
