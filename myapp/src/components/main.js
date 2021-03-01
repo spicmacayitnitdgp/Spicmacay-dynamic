@@ -171,12 +171,12 @@ class Main extends Component {
                 Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
                 what are you waiting for? Fasten your seatbelts and get ready to soak in India's rich heritage at
                 its finest.</p>
-{/* 
+
                     <Link to={{pathname:"/event",state:{
                           type:"INDIKA"
                       }}} style={{fontSize:"10px"}}>
                           SEE ARTICLES
-                          </Link>   */}
+                          </Link>  
            </div> 
     {/* <div className="card">
             <div className="imgcard">
