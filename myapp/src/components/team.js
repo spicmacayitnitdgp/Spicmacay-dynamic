@@ -1,26 +1,10 @@
 import React, { Component } from 'react';
 import "./4.css"
-import ramiz from "./images/1st/ramiz.jpg"
-import liman from "./images/3rd/liman.jpg"
-import rima from "./images/3rd/rima.jpg"
-import aitihya from "./images/3rd/aitihya.jpg"
-import anik from "./images/3rd/anik.jpg"
-import sayar from "./images/3rd/sayar.jpg"
-import sankalp from "./images/3rd/sankalp.jpg"
-import rojalin from "./images/3rd/rojalin.jpg"
-import ankur from "./images/3rd/ankur.jpg"
-import sohom from "./images/3rd/sohom.jpg"
-import akshat from "./images/3rd/akshat.jpg"
-import mahesh from "./images/3rd/mahesh.jpg"
-import anubhab from "./images/3rd/anubhab.jpg"
-import ravi from "./images/3rd/ravi.jpg"
-import surajit from "./images/3rd/surajit.jpg"
-import rawani from "./images/3rd/rawani.jpg"
-import surabhi from "./images/3rd/surabhi.jpg"
-import plaboni from "./images/3rd/plaboni.jpg"
-import bagchi from "./images/3rd/bagchi.jpg"
-import anushka from "./images/3rd/anushka.jpg"
-import souranil from "./images/3rd/souranil.jpg"
+
+
+
+                                    // 2018-2022 batch //
+
 import abhishek from "./images/2nd/abhishek.jpg"
 import abhigyan from "./images/2nd/abhigyan.jpg"
 import ananya from "./images/2nd/ananya.jpg"
@@ -45,12 +29,17 @@ import tamogna from "./images/2nd/tamoghna.jpg"
 import souvik from "./images/2nd/souvik.jpg"
 import sneha from "./images/2nd/sneha.jpg"
 import sujana from "./images/2nd/sujana.jpeg"
-import saswata from "./images/2nd/rik.jpeg"
+import saswata from "./images/2nd/saswata.jpeg"
 import madhura from "./images/2nd/Madhura.jpg"
 import shivapriya from "./images/2nd/shivapriya.jpg"
 import arya from "./images/2nd/arya.jpg"
 import adrija from "./images/2nd/adrija.jpg"
 import suneha from "./images/2nd/suneha.jpg"
+import mahumita from "./images/2nd/mahumita.jpeg"
+
+
+                                    // 2019-2023 batch //
+
 import ram from "./images/1st/ram.JPG"
 import rajdeep from "./images/1st/rajdeep.jpg"
 import aditi from "./images/1st/aditi.jpg"
@@ -74,6 +63,38 @@ import prabhat from "./images/1st/prabhat.jpg"
 import sankita from "./images/1st/sankita.jpg"
 import sayan from "./images/1st/sayan.jpg"
 import ankita from "./images/1st/ankita.jpg"
+import ramiz from "./images/1st/ramiz.jpg"
+
+
+
+                                        // 2020 - 2024 batch //
+
+import adarsh from "./images/2020/adarsh.jpg"
+import ankon from "./images/2020/ankon.jpg"
+import ashutosh from "./images/2020/ashutosh.jpg"
+import ayushi from "./images/2020/ayushi.jpg"
+import biswanath from "./images/2020/biswanath.jpg"
+import debapriya from "./images/2020/debapriya.jpg"
+import debrup from "./images/2020/debrup.jpg"
+import harika from "./images/2020/harika.jpg"
+import hridikalpa from "./images/2020/hridikalpa.jpg"
+import joyraj from "./images/2020/joyraj.jpg"
+import pritasmi from "./images/2020/pritasmi.jpg"
+import priyanshi from "./images/2020/priyanshi.jpg"
+import souvikpal from "./images/2020/souvik.jpg" 
+import pratiti from "./images/2020/pratiti.png" 
+import prativa from "./images/2020/prativa.jpg" 
+import sravanthi from "./images/2020/sravanthi.jpg" 
+import ishan from "./images/2020/ishan.jpg" 
+import arpan from "./images/2020/arpan.jpg" 
+import drishita from "./images/2020/drishita.jpg" 
+import harshita from "./images/2020/harshitha.jpg" 
+import sharvani from "./images/2020/sharvani.jpg" 
+import sourajit from "./images/2020/sourajit.jpg" 
+import yuvraj from "./images/2020/yuvraj.jpg" 
+
+
+
 
 class Team extends Component {
     render() {
@@ -89,11 +110,11 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={akshat} /></div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rik} /></div>
    <div className="details"> 
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Akshat Jain
+  Rik Dasgupta
   </div>
    </div>
    
@@ -109,17 +130,17 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rima} /></div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sujana} /></div>
        <div className="details"> 
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Rima Roy
+      Sujana Pal
       </div>
        </div>
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-     Treasurer and Content Writing Head
+     Treasurer
       </div>
        </div></div>
    </div>
@@ -127,17 +148,17 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anik} /></div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={somdatta} /></div>
        <div className="details"> 
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Anik Saha
+      Somdatta Paul
       </div>
        </div>
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Treasurer and Art Wing Head
+       Treasurer
       </div>
        </div>
      </div>
@@ -151,17 +172,17 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sankalp} /></div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={annasha} /></div>
    <div className="details"> 
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Sankalp Choubey
+  Annasha Dey
   </div>
    </div>
    
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-  Seceretary
+  General Seceretary
   </div>
    </div></div>
 </div>
@@ -169,361 +190,6 @@ class Team extends Component {
 
 
    <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sohom} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Sohom Mukherjee
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-     Vice-President
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={liman} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Liman Rahman
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Assistance General Secretary
-      </div>
-       </div>
-     </div>
-   </div>
- </div>
-
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ankur} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Ankur Paul
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Music Wing Head
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souranil} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Souranil Biswas
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing Head and Sponsorship Head
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rojalin} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Rojalin Acharya
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Dance Wing Head
-      </div>
-       </div>
-     </div>
-   </div>
- </div>
-
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={mahesh} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Mahesh Wanole
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-  Art Wing Head
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={surajit} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Surajit Basak
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-     IT Wing Head
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ravi} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Ravi Swaroop
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-      IT wing head and Publicity Head
-      </div>
-       </div>
-     </div>
-   </div>
- </div>
-
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rawani} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Shivnandan Rawani
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Publicity Head
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anubhab} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Anubhab Chaudhuri
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-     Publicity Head
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   
- </div>
-
-
-    <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={surabhi}/></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Surabhi Verma
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Dance Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={bagchi}/></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Sannidhya Bagchi
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-      Music Wing
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={plaboni} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Plaboni Mukherjee
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing
-      </div>
-       </div>
-     </div>
-   </div>
- </div>
-
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anushka} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Anushka Biswas
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Music Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={aitihya} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Aithiya Karmakar
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-  Dance Wing and Sponsorship Head
-  </div>
-   </div></div>
-</div>
-
- </div>
-  
-
-  <h3 className="events" id="teammembers" style={{color:"#AC3B61",fontFamily:'Gilroy'}}>3rd Year</h3>
-<div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhigyan} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Abhigyan Deoli
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Music Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhishek} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Abhishek Dey
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
        <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={adrija} /></div>
@@ -536,50 +202,7 @@ class Team extends Component {
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing
-      </div>
-       </div></div>
-   </div>
- </div>
-
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ananya} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Ananya Nath
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Dance Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={annasha} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Annasha Dey
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
+     Vice-President,<br></br>Music Wing Head 
       </div>
        </div></div>
    </div>
@@ -587,19 +210,20 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anusha}/></div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={joy} /></div>
        <div className="details"> 
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Anusha Ghosh
+      Joy Mallick
       </div>
        </div>
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
+       Assistance General Secretary
       </div>
-       </div></div>
+       </div>
+     </div>
    </div>
  </div>
 
@@ -620,7 +244,7 @@ class Team extends Component {
    
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Music Wing
+   Sponsorship Head
   </div>
    </div></div>
 </div>
@@ -630,17 +254,17 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={arya} /></div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhishek} /></div>
        <div className="details"> 
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Arya Verma
+      Abhisek Dey
       </div>
        </div>
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing
+       Sponsorship Head
       </div>
        </div></div>
    </div>
@@ -648,21 +272,22 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={joy}/></div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayani} /></div>
        <div className="details"> 
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Joy Mallick
+      Sayani Saha
       </div>
        </div>
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing
+       Publicity Head
       </div>
-       </div></div>
+       </div>
+     </div>
    </div>
-   </div>
+ </div>
 
 
    <div className="members row">
@@ -671,137 +296,17 @@ class Team extends Component {
 <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhura}/></div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saswata} /></div>
    <div className="details"> 
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Madhura Ghosh
+  Saswata Bagchi
   </div>
    </div>
    
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Dance Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhumita} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Maumita Basu
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={piyanjana} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Piyanjana Ghosh
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Dance Wing
-      </div>
-       </div></div>
-   </div>
-   </div>
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={pritam} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Pritam Mandal
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Creative Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rittick} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Rittick Purkait
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rik} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Rik Dasgupta
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
-      </div>
-       </div></div>
-   </div>
-   </div>
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saikat} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Saikat Ghosh
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Creative Wing
+  Publicity Head
   </div>
    </div></div>
 </div>
@@ -821,7 +326,7 @@ class Team extends Component {
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
+      Web-D Head
       </div>
        </div></div>
    </div>
@@ -829,81 +334,23 @@ class Team extends Component {
    <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sayani} /></div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rittick} /></div>
        <div className="details"> 
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Sayani Saha
+      Rittick Purkait
       </div>
        </div>
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Dance Wing
-      </div>
-       </div></div>
-   </div>
-   </div>
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={shivapriya} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Shivapriya Garigipati
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Music Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sneha}/></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Sneha Dey
+      IT Wing Head
       </div>
        </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Dance Wing
-      </div>
-       </div></div>
+     </div>
    </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={somdatta} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Somdatta Paul
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Dance Wing
-      </div>
-       </div></div>
-   </div>
-   </div>
+ </div>
+
 
    <div className="members row">
    
@@ -921,7 +368,7 @@ class Team extends Component {
    
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Creative Wing
+   IT Wing Head
   </div>
    </div></div>
 </div>
@@ -931,187 +378,428 @@ class Team extends Component {
    <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
        <input type="checkbox" className="checked" name=" "/>
        <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sujana} /></div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saikat} /></div>
        <div className="details"> 
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Sujana Pal
+      Saikat Ghosh
       </div>
        </div>
        
        <div className="row">
       <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
+      IT Wing Head
       </div>
        </div></div>
    </div>
        <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={suneha} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Suneha Maiti
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing
-      </div>
-       </div></div>
-   </div>
-   </div>
-
-   <div className="members row">
    
+
+    
    
 <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
    <input type="checkbox" className="checked" name=" "/>
    <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tamogna} /></div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sneha}/></div>
    <div className="details"> 
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Tamoghna Basak
+  Sneha Rani Dey
   </div>
    </div>
    
    <div className="row">
   <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Creative Wing
+   Dance Wing Head
   </div>
    </div></div>
 </div>
    <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+</div>
 
 
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tapojyoti} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Tapojyoti Mohanta
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+<div className="members row">
+   
+   
    <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tiyasha}/></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Tiyasha Ghosh
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={madhura} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Madhura Ghosh
+     </div>
       </div>
-       </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Dance Wing Head
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   
+   
+      <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+          <input type="checkbox" className="checked" name=" "/>
+          <div className="toogle">+</div>
+          <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={trishika} /></div>
+          <div className="details"> 
+          <div className="row">
+         <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+         Trishikha Saha
+         </div>
+          </div>
+          
+          <div className="row">
+         <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+         Art Wing Head
+         </div>
+          </div></div>
+      </div>
+          <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+      
+   
        
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Creative Wing
-      </div>
-       </div></div>
-   </div>
-   </div>
-
-   <div className="members row">
-   
-   
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={trishika} /></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Trishikha Saha
-  </div>
-   </div>
-   
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-   Creative Wing
-  </div>
-   </div></div>
-</div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
-
-   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souvik} /></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Souvik Bose
-      </div>
-       </div>
-       
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Music Wing
-      </div>
-       </div></div>
-   </div>
-       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+      
    <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-       <input type="checkbox" className="checked" name=" "/>
-       <div className="toogle">+</div>
-       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rangeet}/></div>
-       <div className="details"> 
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-      Rangeet Hait
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tamogna}/></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Tamoghna Basak
+     </div>
       </div>
-       </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Art Wing Head
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+</div>    
+
+
+
+<div className="members row">
+   
+   
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rangeet} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Rangeet Hait
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Art Wing Head
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   
+   
+      <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+          <input type="checkbox" className="checked" name=" "/>
+          <div className="toogle">+</div>
+          <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={suneha} /></div>
+          <div className="details"> 
+          <div className="row">
+         <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+         Suneha Maiti
+         </div>
+          </div>
+          
+          <div className="row">
+         <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+         Music Wing Head
+         </div>
+          </div></div>
+      </div>
+          <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+      
+   
        
-       <div className="row">
-      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-       Art Wing
+      
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={abhigyan}/></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Abhigyan Deoli
+     </div>
       </div>
-       </div></div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Music Wing Head
+     </div>
+      </div></div>
    </div>
-   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+</div>  
 
-   <div className="members row">
+
+
+<div className="members row">
    
    
-<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
-   <input type="checkbox" className="checked" name=" "/>
-   <div className="toogle">+</div>
-   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={saswata}/></div>
-   <div className="details"> 
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
-  Saswata Bagchi
-  </div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={anusha} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Anusha Ghosh
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Content Wing Head
+     </div>
+      </div></div>
    </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+
+      <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ananya} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Ananya Nath
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Dance Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+      <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={piyanjana} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Piyanjana Ghosh
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Dance Wing 
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>    
+</div>  
+
+
+<div className="members row">
    
-   <div className="row">
-  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
-    Wing
-  </div>
-   </div></div>
+   
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={pritam} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Pritam Mandal
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Creative Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+
+      <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tiyasha} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Tiyasha Ghosh
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Creative Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+      <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={tapojyoti} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Tapojyoti Mohanta
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Creative Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
 </div>
-   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-
+      <div className="members row">
    
- </div>
+   
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souvik} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Souvik Bose
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Music Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
 
 
-    <h3 className="events" id="teammembers" style={{color:"black"}}>2nd Year</h3>
+
+      <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={arya} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Arya Verma
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+     Music Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+      <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={shivapriya} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Shivapriya Garigipati
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Music Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+</div>
+
+
+
+<div className="members row">
+   
+   
+   
+
+
+      <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+      <input type="checkbox" className="checked" name=" "/>
+      <div className="toogle">+</div>
+      <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={mahumita} /></div>
+      <div className="details"> 
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+     Mahumita Bose
+     </div>
+      </div>
+      
+      <div className="row">
+     <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Creative Wing
+     </div>
+      </div></div>
+   </div>
+      <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+         
+</div>
+
+
+
+
+
+
+
+
+                                            {/* 3rd Years */}
+
+
+
+
+
+
+
+
+
+<br/> 
+<br/> 
+
+    <h3 className="events" id="teammembers" style={{color:"black"}}>3rd Year</h3>
+    <br/>
 <div className="members row">
    
    
@@ -1591,6 +1279,489 @@ class Team extends Component {
        </div></div>
    </div>
  </div> 
+
+
+
+
+                                        {/* 2nd Year */}
+
+
+
+
+
+
+
+
+
+<br/>
+<br/>
+ <h3 className="events" id="teammembers" style={{color:"black"}}>2nd Year</h3>
+ <br/>
+<div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={adarsh} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Adarsh Arya
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Content Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ankon} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Ankon Ghosh
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Art Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={arpan} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Arpan Sardar
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Art Wing
+      </div>
+       </div></div>
+   </div>
+ </div>
+
+ <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ashutosh} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Ashutosh Rai
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Content Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ayushi} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Ayushi Gupta
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Music Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sravanthi} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Banothu Sravanthi
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Dance Wing
+      </div>
+       </div></div>
+   </div>
+ </div>
+
+ <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={biswanath} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Biswanath Chakraborty
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Content Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={harika} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Boddu Harika 
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Dance Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={debapriya} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Debapriya Saha 
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Dance Wing
+      </div>
+       </div></div>
+   </div>
+ </div>
+
+  <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={debrup} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Debrup Chakraborty
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Music Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={drishita} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Drishita Nag
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Music Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={harshita} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Harshitha Yenna
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Dance Wing
+      </div>
+       </div></div>
+   </div>
+ </div>
+
+  <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={hridikalpa} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Hridikalpa Das
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Music Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ishan} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Ishan Gupta
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       IT Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={joyraj} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Joyraj Longjam
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Music Wing
+      </div>
+       </div></div>
+   </div>
+ </div>
+
+ <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={pratiti} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Pratiti Pradhan
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Dance Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={prativa} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Prativa Sahu
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Dance Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={pritasmi}/></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Pritasmi Bhattacharyya
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Music Wing
+      </div>
+       </div></div>
+   </div>
+ </div>
+
+ <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={priyanshi} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Priyanshi Singh
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Art Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sharvani}/></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Sharvani Reddy Dommata
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Content Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={sourajit} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Sourajit Pal 
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Art Wing
+      </div>
+       </div></div>
+   </div>
+ </div>
+
+ <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={souvikpal} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Souvik Pal
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   IT Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={yuvraj} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Yuvraj Amar
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       IT Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   
+       
+       
+ </div>
             </div>
         );
     }
