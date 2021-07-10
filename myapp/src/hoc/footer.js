@@ -56,13 +56,13 @@ const Footer = () => {
                     </div>
                     <div className="footer_box_body">
                         <p>
-                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>President:</b>Akshat Jain</p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>President:</b>Rik Dasgupta</p>
                             <p><i className="fa fa-phone">&nbsp;<a href="tel:+8004937056"> +91 8004937056</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:akshat7321.aj@gmail.com">  aritra240@gmail.com</a></i></p>
                             <p></p>
-                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Vice President:</b>Sohom Mukherjee</p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Vice President:</b>Adrija Biswas</p>
                             <p><i className="fa fa-phone"><a href="tel:+">&nbsp; +91 9123077107 </a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:sohommukherjee.1998@gmail.com@gmail.com"> tiasha.biswas@gmail.com</a></i></p>
                             <p></p>
-                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Secretary :</b>Sankalp Choubey</p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>General Secretary :</b>Annasha Dey</p>
                             <p><i className="fa fa-phone"><a href="tel:+8788981871">&nbsp; +91 8788981871</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:sankalpchoubey10@gmail.com">rajdeepgolder@gmail.com</a></i></p>
                         </p>
                     </div>
