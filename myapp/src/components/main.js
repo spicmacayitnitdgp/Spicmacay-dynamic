@@ -8,6 +8,9 @@ import twelve from "./images/24.jpg"
 import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
 import indika from './images/indika.jpg'
+import content from './images/contentwing.jpg'
+import it from './images/it2.jpg'
+import dance from './images/dance.jpg'
 import one from "./images/1.jpg"
 import {connect} from "react-redux"
 import eleven from "./images/11.jpg" 
@@ -234,7 +237,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={ten} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
+      <img src={dance} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>DANCE WING</h1>
@@ -262,7 +265,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={thirteen} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
+      <img src={it} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>IT WING</h1>
@@ -287,6 +290,28 @@ class Main extends Component {
 </div>
 </div>
 
+</div>
+<br></br><br/>
+<div className="contain1" >
+<div className="row">
+
+
+
+
+  <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
+  <div className="flip-card">
+    <div className="flip-card-inner">
+      <div className="flip-card-front">
+        <img src={content} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
+      </div>
+      <div className="flip-card-back">
+      <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>CONTENT WING</h1>
+      <p style={{marginTop:"20px",color:"#EEE2DC",fontFamily:"Gilroy",fontSize:'15px'}}>This wings provides information to showcases it to the world.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
 </div>
  <br/><br/>
             </div>
