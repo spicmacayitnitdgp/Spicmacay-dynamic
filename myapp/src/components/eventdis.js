@@ -24,8 +24,8 @@ class Eventdis extends Component {
                     this.state.results.length>0 ?
                     this.state.results.map((item,i)=>(
                    <div className="event" key={i}>
-                    <div id="event-image"><img src={item.images[0].original} id="event-img"/></div>
-                    <div className="event-text">
+                    <div id="event-image" style={{objectFit:"cover"}}><img src={item.images[0].original} id="event-img"/></div>
+                    <div className="event-text" style={{overflow:"auto"}}>
                         <h1>{item.name}</h1>
                         <div id="event-para"><h5>{item.content}</h5></div>
                     </div>

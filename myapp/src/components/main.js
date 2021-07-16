@@ -168,7 +168,7 @@ class Main extends Component {
         </div>
            <div className="detail">
                <h2 className="titl" style={{fontSize:"15px !important",color:"#EEE2DC"}}>INDIKA</h2>
-               <p className="info" style={{fontSize:"14px",color:"#EEE2DC",overflow:"auto"}}>VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
+               <p className="info" style={{fontSize:"14px",color:"#EEE2DC"}}>VIRASAT is the official cultural extravaganza organized by SPIC MACAY NIT Durgapur Chapter.
                 The perfect blend of gorgeous grace with sonorous tune swirls in the flavour of Indian culture
                 and tradition. Esteemed artists of the likes of Pt Viswa Mohan Bhatt(Grammy Award
                 Winner), Dr. N. Rajam, Pt. Ajoy Chakraborty etc. have been show stealers in the recent past. So
