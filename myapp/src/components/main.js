@@ -147,7 +147,7 @@ class Main extends Component {
                         workshop focuses to bring the colourful flare of creativity among the underprivileged children
                         of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
                         opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
-                            <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button>
+                            {/* <button onClick=""><a href="https://x.facebook.com/pg/spicmacaynitd/posts/?ref=page_internal&mt_nav=0">READ MORE</a></button> */}
                             <Link to={{pathname:"/event",state:{
                           type:"ANUBHAV"
                       }}} style={{fontSize:"10px"}} >

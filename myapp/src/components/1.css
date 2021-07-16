@@ -81,7 +81,7 @@
 
   .card .imgcard .images{
     
-    object-fit:cover;
+    object-fit:cover !important;
   position:absolute;
   top:0px;
   left:0px;
