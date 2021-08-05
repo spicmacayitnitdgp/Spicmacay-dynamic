@@ -5,7 +5,7 @@ import {adddetails}  from './actions/recordactions'
 import FormFields from '../utils/formfields';
 import "./11.css"
 import FileUpload from '../utils/fileupload'
-class Gallery extends Component {
+class News extends Component {
 
     state={
         formSuccess:false,

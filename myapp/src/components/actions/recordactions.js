@@ -38,6 +38,8 @@ export function addevents(data,password){
     }
 }
 
+
+
 export function addnews(data){
     const request = axios.post(`${RECORD_SERVER}/addnews`,data)
         .then(response => response.data);
