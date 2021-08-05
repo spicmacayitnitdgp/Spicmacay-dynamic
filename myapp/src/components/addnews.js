@@ -103,7 +103,7 @@ submitform=(event)=>{
     const isformvalid=validform(this.state.formdata,'register')
     const data=generatedata(this.state.formdata,'register')
     if(true){
-        this.props.dispatch(adddetails(data,this.state.val)).then((response)=>{
+        this.props.dispatch(addnews(data,this.state.val)).then((response)=>{
             if(response.payload.success){
                 this.setState({
                     formSuccess:true,
