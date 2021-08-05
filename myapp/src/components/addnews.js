@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import {update,validform, generatedata} from '../utils/formtions'
-import {adddetails}  from './actions/recordactions'
+import {addnews}  from './actions/recordactions'
 import FormFields from '../utils/formfields';
 import "./11.css"
 import FileUpload from '../utils/fileupload'
@@ -195,7 +195,7 @@ entry=(event)=>{
             </div>
             </div>
             <div className="row">
-            <h4>PASSWORD</h4>
+            <h4>PASSWORD</h4> <br></br>
              <div className="each">
                 
                <input type="password" value={this.state.val} onChange={(event)=>{this.entry(event)}}/>
