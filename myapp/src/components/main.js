@@ -16,6 +16,7 @@ import {connect} from "react-redux"
 import eleven from "./images/11.jpg" 
 import { searchyear } from './actions/recordactions';
 import {Link} from 'react-router-dom'
+import Slider from './carousel';
 class Main extends Component {
     state={
 
@@ -34,36 +35,11 @@ class Main extends Component {
     render() {
         return (
             <div>
-             <div className="row">
-    <section className="wavep container">
-        {/* <div id="mySidenav" className="sidenav">
-            <a href="javascript:void(0)" className="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#about">About</a>
-            <a href="#team">Volunteers</a>
-            <a href="#events">Events</a>
-            <a href="#wings">Wings</a>
-            <a href="./loader4.html">Team</a>
-            <a href="./loader1.html">Picture gallery</a>
-          </div>
-          
-          <span id="navig" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-          
-          <script>
-          function openNav() {
-            $("#mySidenav").css({"width" :"250px"});
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
-          </script>
-           */}
-        <div className="wave col-lg-12 col-md-12 col-sm-12 col-sm-12 col-xs-12"></div>
-    </section>
-</div>
+            <div className="contain1">
+            <Slider /> 
+            </div>
 
-
-         <br/><br/>
+       
          <div className="row" id="about">
            
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
@@ -190,12 +166,14 @@ class Main extends Component {
 {/* <!-- wings --> */}
 <h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> WINGS</h1>
 <br></br><br></br>
+{/* <div className="contain1"> */}
 <div className="row">
-    <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
-<div className="flip-card">
+
+<div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
+<div className="flip-card" >
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={dance} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
+      <img src={dance} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>DANCE WING</h1>
@@ -209,7 +187,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
+      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>MUSIC WING</h1>
@@ -223,7 +201,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={it} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
+      <img src={it} alt="Avatar" style={{width:"300px",height:"300px" ,borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>IT WING</h1>
@@ -233,12 +211,11 @@ class Main extends Component {
 </div>
 </div>
 
-
 <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
+      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>ART WING</h1>
@@ -248,19 +225,17 @@ class Main extends Component {
 </div>
 </div>
 
+
 </div>
 <br></br><br/>
-<div className="contain1" >
+<div className="contain1">
 <div className="row">
 
-
-
-
-  <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
+<div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
   <div className="flip-card">
     <div className="flip-card-inner">
       <div className="flip-card-front">
-        <img src={content} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
+        <img src={content} alt="Avatar" style={{width:"300px",height:"300px" ,borderRadius:'50%'}} loading="lazy"/>
       </div>
       <div className="flip-card-back">
       <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>CONTENT WING</h1>

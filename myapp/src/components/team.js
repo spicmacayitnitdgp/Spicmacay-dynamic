@@ -64,6 +64,11 @@ import sankita from "./images/1st/sankita.jpg"
 import sayan from "./images/1st/sayan.jpg"
 import ankita from "./images/1st/ankita.jpg"
 import ramiz from "./images/1st/ramiz.jpg"
+import ananyaBiswas from "./images/1st/ananya.jpeg"
+import deboleena from "./images/1st/deboleena.jpg"
+import rageshree from "./images/1st/rageshree.jpeg"
+import rhiti from "./images/1st/rhiti.jpeg"
+import ritika from "./images/1st/ritika.jpeg"
 
 
 
@@ -1280,6 +1285,108 @@ class Team extends Component {
    </div>
  </div> 
 
+ <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ananyaBiswas} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Ananya Biswas
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Creative Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={deboleena} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Deboleena Das
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Creative Wing
+      </div>
+       </div></div>
+   </div>
+       <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+   <div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rageshree} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Ragashree Bhattacharjee
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+       Music Wing
+      </div>
+       </div></div>
+   </div>
+ </div> 
+
+ <div className="members row">
+   
+   
+<div  className="col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+   <input type="checkbox" className="checked" name=" "/>
+   <div className="toogle">+</div>
+   <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={rhiti} /></div>
+   <div className="details"> 
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+  Rhiti Mitra
+  </div>
+   </div>
+   
+   <div className="row">
+  <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+   Music Wing
+  </div>
+   </div></div>
+</div>
+   <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
+
+
+   <div  className=" col-lg-3 col-md-10 col-sm-10 col-xs-10 " id="card">
+       <input type="checkbox" className="checked" name=" "/>
+       <div className="toogle">+</div>
+       <div className="imgbox"> <img alt="pic" style={{objectFit:"cover !important"}} loading="lazy" className="cardimg " src={ritika} /></div>
+       <div className="details"> 
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'5px'}} className="col-lg-12 name">
+      Ritika Singh
+      </div>
+       </div>
+       
+       <div className="row">
+      <div style={{textAlign:'center',marginLeft:'4px'}} className="col-lg-12 descp">
+      Creative Wing
+      </div>
+       </div></div>
+   </div>
+      
+  
 
 
 
@@ -1762,7 +1869,8 @@ class Team extends Component {
        
        
  </div>
-            </div>
+</div>
+</div>
         );
     }
 }
