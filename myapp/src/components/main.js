@@ -4,6 +4,7 @@ import "./1.css"
 import "./13.css"
 import ten from "./images/10.jpg"
 import thirteen from "./images/13.jpg"
+import Slide from 'react-reveal/Slide';
 import twelve from "./images/24.jpg"
 import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
@@ -16,6 +17,8 @@ import {connect} from "react-redux"
 import eleven from "./images/11.jpg" 
 import { searchyear } from './actions/recordactions';
 import {Link} from 'react-router-dom'
+import Rotate from 'react-reveal/Rotate';
+
 class Main extends Component {
     state={
 
@@ -64,8 +67,9 @@ class Main extends Component {
 
 
          <br/><br/>
+         
          <div className="row" id="about">
-           
+           < Slide left>
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
                 
             <h1 style={{textAlign:'center',fontSize:'40px',color:'#3d3d3d',marginLeft:'20px'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
@@ -85,12 +89,14 @@ class Main extends Component {
             
             
             </div>
+            </Slide>
             </div>
 
        <br/><br/>
 
           <h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> EVENTS</h1>
           <br></br><br></br>
+          <Rotate top left>
      <div className="contain1" >
     <div className="card" style={{marginRight:"40px",borderRadius:'10px'}}>
         <div className="imgcard" style={{borderRadius:'10px'}}>
@@ -152,10 +158,10 @@ class Main extends Component {
                           </Link>  
                    </div> 
             
-            </div>
-                        
+            </div>     
 </div>        
 
+</Rotate>   
 <br></br>
 <br></br>
      <div className="contain1" >
