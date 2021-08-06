@@ -68,12 +68,12 @@ class Main extends Component {
            
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
                 
-            <h1 style={{textAlign:'center',fontSize:'40px',color:'#AC3B61',marginLeft:'20px'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
+            <h1 style={{textAlign:'center',fontSize:'40px',color:'#3d3d3d',marginLeft:'20px'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
             <br></br>
                 <div className="circle">
 
                 </div>
-                <p style={{fontStyle:'normal !important', wordWrap:'break-word',color:'#AC3B61'}}>SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
+                <p style={{fontStyle:'normal !important', wordWrap:'break-word',color:'#3d3d3d'}}>SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
                     by Dr Kiran Seth, Professor-Emeritus at IIT-Delhi who was awarded the ‘Padma Shri’ for his contribution to the arts in 2009.
                    SPICMACAY’s intention is to enrich the quality of formal education by increasing awareness about different aspects of Indian heritage 
                    and inspiring the young mind to imbibe the values embedded in it. It seeks to inspire youth through experiencing the mysticism embodied
@@ -89,10 +89,7 @@ class Main extends Component {
 
        <br/><br/>
 
-        {/* <!-- Events -->
-     <!-- Enter pictures of events here --> */}
-          {/* <p className="events" style={{color:"black",textAlign:"center !important",marginLeft:"20px"}}>EVENTS</p> */}
-          <h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> EVENTS</h1>
+          <h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> EVENTS</h1>
           <br></br><br></br>
      <div className="contain1" >
     <div className="card" style={{marginRight:"40px",borderRadius:'10px'}}>
@@ -180,46 +177,7 @@ class Main extends Component {
                       }}} style={{fontSize:"10px"}}>
                           SEE ARTICLES
                           </Link>  
-           </div> 
-    {/* <div className="card">
-            <div className="imgcard">
-               <img className="images" src={twonine}/>
-            </div>
-               <div className="detail">
-                   <h2 className="titl">ADITI</h2>
-                   <p className="info">Uttarayan is the annual kite festival of SPIC MACAY NIT Durgapur Chapter. It is celebrated every
-                    year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
-                    creates a vibrant environment . Everyone delves into the madness of this colourful festival and
-                    enjoys every bit of time.</p>
-                        <Link to={{pathname:"/eventdis",state:{
-                          type:"ADITI"
-                      }}}>
-                          SEE ARTICLES
-                          </Link>  
-               </div> 
-            
-        </div>
-        <div className="card">
-                <div className="imgcard">
-                   <img className="images" src={seventeen}/>
-                </div>
-                   <div className="detail">
-                       <h2 className="titl">ANUBHAV</h2>
-                       <p className="info" style={{fontSize:"10px"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
-                        BMEP join hands every year to organise its annual art workshop, Anubhav. This one of a kind art
-                        workshop focuses to bring the colourful flare of creativity among the underprivileged children
-                        of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
-                        opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
-                            
-                            <Link to={{pathname:"/eventdis",state:{
-                          type:"ANUBHAV"
-                      }}}>
-                          SEE ARTICLES
-                          </Link>  
-                   </div> 
-            
-            </div>
-                         */}
+           </div>
 </div>        
 
 </div>
@@ -230,7 +188,7 @@ class Main extends Component {
 
 
 {/* <!-- wings --> */}
-<h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> WINGS</h1>
+<h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> WINGS</h1>
 <br></br><br></br>
 <div className="row">
     <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
