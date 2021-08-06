@@ -4,7 +4,7 @@ import {update,validform, generatedata} from '../utils/formtions'
 import {addnews}  from './actions/recordactions'
 import FormFields from '../utils/formfields';
 import "./11.css"
-import FileUpload from '../utils/fileupload'
+
 class News extends Component {
 
     state={
@@ -28,7 +28,7 @@ class News extends Component {
                 label:true
             },
             subject: {
-                element:'input',
+                element:'textarea',
                 value:'',
                 config:{
                     name:'subject',
@@ -146,7 +146,7 @@ entry=(event)=>{
             <div className="row">
              <div className="each">
                <FormFields
-                  formdata={this.state.formdata.name}
+                  formdata={this.state.formdata.author}
                   id={'author'}
                   change={(event)=>{this.updateform(event)}}
                 />
@@ -195,9 +195,9 @@ entry=(event)=>{
             </div>
             </div>
             <div className="row">
-            <h4>PASSWORD</h4> <br></br>
+            <h4>PASSWORD</h4> <br></br> <br></br><br></br><br></br>
              <div className="each">
-                
+             <br></br>
                <input type="password" value={this.state.val} onChange={(event)=>{this.entry(event)}}/>
             </div>
             </div>

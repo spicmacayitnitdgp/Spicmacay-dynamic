@@ -17,7 +17,7 @@ const Routes = () => {
             
         <Route component={Main} exact path="/"/> 
         <Route component={Virasat} exact path="/virasat"/> 
-         <Route components={News} exact path="/addnews"/>  
+         <Route component={News} exact path="/addnews"/>  
         <Route component={Team} exact path="/o"/>
         <Route component={GalleryDis} exact path="/g"/>
         <Route component={Details} exact  path="/events"/>

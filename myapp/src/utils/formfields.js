@@ -39,7 +39,7 @@ class FormFields extends Component {
         template = (
             <div>
                 {this.props.formdata.label?
-                <div className="label_inputs" id="email" style={{fontFamily:'sans serif'}}>
+                <div className="label_inputs" id="email" style={{fontFamily:'sans serif',fontSize:"20px"}}>
                     {this.props.formdata.config.name}
                 </div>
                 :null}
