@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import "./7.css"
 import "./1.css"
 import "./13.css"
+
+import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
 import indika from './images/indika.jpg'
 import one from "./images/1.jpg"
