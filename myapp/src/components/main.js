@@ -4,6 +4,7 @@ import "./1.css"
 import "./13.css"
 import ten from "./images/10.jpg"
 import thirteen from "./images/13.jpg"
+
 import twelve from "./images/24.jpg"
 import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
@@ -18,6 +19,8 @@ import { searchyear } from './actions/recordactions';
 import {Link} from 'react-router-dom'
 import Slider from './carousel';
 import Wings from './wings'
+
+
 
 class Main extends Component {
     state={
@@ -41,7 +44,12 @@ class Main extends Component {
             <Slider /> 
             </div>
 
+
        
+
+         <br/><br/>
+         
+
          <div className="row" id="about">
            
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
@@ -63,12 +71,14 @@ class Main extends Component {
             
             
             </div>
+            
             </div>
 
        <br/><br/>
 
           <h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> EVENTS</h1>
           <br></br><br></br>
+          
      <div className="contain1" >
     <div className="card" style={{marginRight:"40px",borderRadius:'10px'}}>
         <div className="imgcard" style={{borderRadius:'10px'}}>
@@ -130,10 +140,10 @@ class Main extends Component {
                           </Link>  
                    </div> 
             
-            </div>
-                        
+            </div>     
 </div>        
 
+ 
 <br></br>
 <br></br>
      <div className="contain1" >
@@ -253,6 +263,7 @@ class Main extends Component {
 
 <br></br><br></br><br></br>
             </div>
+            
         );
     }
 }
