@@ -17,6 +17,8 @@ import eleven from "./images/11.jpg"
 import { searchyear } from './actions/recordactions';
 import {Link} from 'react-router-dom'
 import Slider from './carousel';
+import Wings from './wings'
+
 class Main extends Component {
     state={
 
@@ -167,7 +169,7 @@ class Main extends Component {
 <h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> WINGS</h1>
 <br></br><br></br>
 {/* <div className="contain1"> */}
-<div className="row">
+{/* <div className="row">
 
 <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
 <div className="flip-card" >
@@ -246,7 +248,10 @@ class Main extends Component {
   </div>
 </div>
 </div>
- <br/><br/>
+ <br/><br/> */}
+<Wings />
+
+<br></br><br></br><br></br>
             </div>
         );
     }
