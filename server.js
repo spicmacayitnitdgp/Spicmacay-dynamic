@@ -8,6 +8,7 @@ const cloudinary=require('cloudinary')
 const { admin } = require('./server/middleware/admin');
 const {Event}=require("./server/models/events")
 const {Gallery}=require("./server/models/gallery")
+const {News}=require("./server/models/news")
 const jwt=require('jsonwebtoken')
 var nodemailer = require('nodemailer');
 var compression = require('compression'); 
@@ -104,6 +105,19 @@ app.get('/api/records/allgallery',(req,res)=>{
      })
   })
 
+  app.get('/api/records/allnews',(req,res)=>{
+    console.log('hhhh')
+     News
+     .find()
+     .exec((err,allnews)=>{
+         if(err){
+             console.log(err)
+             res.status(400).send(err)
+             
+         }
+        return res.status(200).send(allnews)
+     })
+  })
  
 
 app.post('/api/records/adddetail',(req,res)=>{
@@ -148,6 +162,25 @@ app.post('/api/records/addevents',(req,res)=>{
     })
 })
 
+app.post('/api/records/addnews',(req,res)=>{
+    bcrypt.compare(req.body.password,'$2b$10$0MKA9k.EPn0eCzFXqfBaTe9ngeghwA/dy45mikj9OV6oymsa.EYtC',function(err,isMatch){
+        if(!isMatch) {
+         res.send(err)
+        }
+        if (isMatch){
+    
+    const record = new News(req.body.data);
+    record.save((err,doc)=>{
+        console.log(err)
+        if(err) return res.json({success:false,err});
+        res.status(200).json({
+            success: true,doc
+        })
+        console.log(doc.name)  
+    })
+}
+    })
+})
 
 
 app.post('/api/records/records',(req,res)=>{

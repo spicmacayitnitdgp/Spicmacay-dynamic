@@ -2,20 +2,19 @@ import React, { Component } from 'react';
 import "./7.css"
 import "./1.css"
 import "./13.css"
-import ten from "./images/10.jpg"
-import thirteen from "./images/13.jpg"
-import twelve from "./images/24.jpg"
+
 import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
 import indika from './images/indika.jpg'
-import content from './images/contentwing.jpg'
-import it from './images/it2.jpg'
-import dance from './images/dance.jpg'
 import one from "./images/1.jpg"
 import {connect} from "react-redux"
-import eleven from "./images/11.jpg" 
 import { searchyear } from './actions/recordactions';
 import {Link} from 'react-router-dom'
+import Slider from './carousel';
+import Wings from './wings'
+
+
+
 class Main extends Component {
     state={
 
@@ -34,46 +33,26 @@ class Main extends Component {
     render() {
         return (
             <div>
-             <div className="row">
-    <section className="wavep container">
-        {/* <div id="mySidenav" className="sidenav">
-            <a href="javascript:void(0)" className="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#about">About</a>
-            <a href="#team">Volunteers</a>
-            <a href="#events">Events</a>
-            <a href="#wings">Wings</a>
-            <a href="./loader4.html">Team</a>
-            <a href="./loader1.html">Picture gallery</a>
-          </div>
-          
-          <span id="navig" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-          
-          <script>
-          function openNav() {
-            $("#mySidenav").css({"width" :"250px"});
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
-          </script>
-           */}
-        <div className="wave col-lg-12 col-md-12 col-sm-12 col-sm-12 col-xs-12"></div>
-    </section>
-</div>
+            <div className="contain1">
+            <Slider /> 
+            </div>
 
+
+       
 
          <br/><br/>
+         
+
          <div className="row" id="about">
            
             <div className="col-lg-12 col-sm-12 col-md-12 description" >
                 
-            <h1 style={{textAlign:'center',fontSize:'40px',color:'#AC3B61',marginLeft:'20px'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
+            <h1 style={{textAlign:'center',fontSize:'40px',color:'#3d3d3d',marginLeft:'20px'}}>ABOUT SPICMACAY, NIT Durgapur Chapter</h1>
             <br></br>
                 <div className="circle">
 
                 </div>
-                <p style={{fontStyle:'normal !important', wordWrap:'break-word',color:'#AC3B61'}}>SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
+                <p style={{fontStyle:'normal !important', wordWrap:'break-word',color:'#3d3d3d'}}>SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977 
                     by Dr Kiran Seth, Professor-Emeritus at IIT-Delhi who was awarded the ‘Padma Shri’ for his contribution to the arts in 2009.
                    SPICMACAY’s intention is to enrich the quality of formal education by increasing awareness about different aspects of Indian heritage 
                    and inspiring the young mind to imbibe the values embedded in it. It seeks to inspire youth through experiencing the mysticism embodied
@@ -85,15 +64,14 @@ class Main extends Component {
             
             
             </div>
+            
             </div>
 
        <br/><br/>
 
-        {/* <!-- Events -->
-     <!-- Enter pictures of events here --> */}
-          {/* <p className="events" style={{color:"black",textAlign:"center !important",marginLeft:"20px"}}>EVENTS</p> */}
-          <h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> EVENTS</h1>
+          <h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> EVENTS</h1>
           <br></br><br></br>
+          
      <div className="contain1" >
     <div className="card" style={{marginRight:"40px",borderRadius:'10px'}}>
         <div className="imgcard" style={{borderRadius:'10px'}}>
@@ -155,10 +133,10 @@ class Main extends Component {
                           </Link>  
                    </div> 
             
-            </div>
-                        
+            </div>     
 </div>        
 
+ 
 <br></br>
 <br></br>
      <div className="contain1" >
@@ -180,46 +158,7 @@ class Main extends Component {
                       }}} style={{fontSize:"10px"}}>
                           SEE ARTICLES
                           </Link>  
-           </div> 
-    {/* <div className="card">
-            <div className="imgcard">
-               <img className="images" src={twonine}/>
-            </div>
-               <div className="detail">
-                   <h2 className="titl">ADITI</h2>
-                   <p className="info">Uttarayan is the annual kite festival of SPIC MACAY NIT Durgapur Chapter. It is celebrated every
-                    year in the day of Makar Sankranti. The fierce battle of kites and the energetic dance moves
-                    creates a vibrant environment . Everyone delves into the madness of this colourful festival and
-                    enjoys every bit of time.</p>
-                        <Link to={{pathname:"/eventdis",state:{
-                          type:"ADITI"
-                      }}}>
-                          SEE ARTICLES
-                          </Link>  
-               </div> 
-            
-        </div>
-        <div className="card">
-                <div className="imgcard">
-                   <img className="images" src={seventeen}/>
-                </div>
-                   <div className="detail">
-                       <h2 className="titl">ANUBHAV</h2>
-                       <p className="info" style={{fontSize:"10px"}}>" Creativity is intelligence having fun." With this mantra, SPIC MACAY NIT Durgapur Chapter and
-                        BMEP join hands every year to organise its annual art workshop, Anubhav. This one of a kind art
-                        workshop focuses to bring the colourful flare of creativity among the underprivileged children
-                        of Durgapur. With a plethora of colourful art, craft and intricate origami, it is truly a magnificent
-                        opportunity for the children to explore the depths of their imagination and unleash its vibrancy</p>
-                            
-                            <Link to={{pathname:"/eventdis",state:{
-                          type:"ANUBHAV"
-                      }}}>
-                          SEE ARTICLES
-                          </Link>  
-                   </div> 
-            
-            </div>
-                         */}
+           </div>
 </div>        
 
 </div>
@@ -230,14 +169,16 @@ class Main extends Component {
 
 
 {/* <!-- wings --> */}
-<h1 style={{textAlign:"center",fontSize:'40px',color:'#AC3B61'}}> WINGS</h1>
+<h1 style={{textAlign:"center",fontSize:'40px',color:'#3d3d3d'}}> WINGS</h1>
 <br></br><br></br>
-<div className="row">
-    <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
-<div className="flip-card">
+{/* <div className="contain1"> */}
+{/* <div className="row">
+
+<div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
+<div className="flip-card" >
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={dance} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
+      <img src={dance} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>DANCE WING</h1>
@@ -251,7 +192,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
+      <img src={twelve} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>MUSIC WING</h1>
@@ -265,7 +206,7 @@ class Main extends Component {
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={it} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
+      <img src={it} alt="Avatar" style={{width:"300px",height:"300px" ,borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>IT WING</h1>
@@ -275,12 +216,11 @@ class Main extends Component {
 </div>
 </div>
 
-
 <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'10px'}} loading="lazy"/>
+      <img src={eleven} alt="Avatar" style={{width:"300px",height:"300px",border:'1px solid black',borderRadius:'50%'}} loading="lazy"/>
     </div>
     <div className="flip-card-back">
     <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>ART WING</h1>
@@ -290,19 +230,17 @@ class Main extends Component {
 </div>
 </div>
 
+
 </div>
 <br></br><br/>
-<div className="contain1" >
+<div className="contain1">
 <div className="row">
 
-
-
-
-  <div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
+<div className="col-lg-3 col-sm-12 col-xs-12 col-md-12">
   <div className="flip-card">
     <div className="flip-card-inner">
       <div className="flip-card-front">
-        <img src={content} alt="Avatar" style={{width:"300px",height:"300px"}} loading="lazy"/>
+        <img src={content} alt="Avatar" style={{width:"300px",height:"300px" ,borderRadius:'50%'}} loading="lazy"/>
       </div>
       <div className="flip-card-back">
       <h1 className='coi' style={{marginTop:"100px",color:"#EEE2DC",fontFamily:"Gilroy"}}>CONTENT WING</h1>
@@ -313,8 +251,12 @@ class Main extends Component {
   </div>
 </div>
 </div>
- <br/><br/>
+ <br/><br/> */}
+<Wings />
+
+<br></br><br></br><br></br>
             </div>
+            
         );
     }
 }

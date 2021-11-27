@@ -9,6 +9,7 @@ import Details from './components/details';
 import  Gallery  from './components/galleryentry';
 import Virasat from './components/virasat';
 import Eventdis from './components/eventdis';
+import News from './components/addnews'
 const Routes = () => {
     return (
         <Layout>
@@ -16,7 +17,7 @@ const Routes = () => {
             
         <Route component={Main} exact path="/"/> 
         <Route component={Virasat} exact path="/virasat"/> 
-           
+         <Route component={News} exact path="/addnews"/>  
         <Route component={Team} exact path="/o"/>
         <Route component={GalleryDis} exact path="/g"/>
         <Route component={Details} exact  path="/events"/>
