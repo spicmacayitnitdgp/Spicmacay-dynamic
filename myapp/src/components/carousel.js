@@ -8,13 +8,14 @@ import e from './images/16.jpg'
 
 
 
+
 const Slider = (props) => {
     console.log(props)
     return (
         <>
         <div className="  col-xs-12 ">
         <div>
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" className="carousel slide"  data-bs-ride="carousel">
                 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
