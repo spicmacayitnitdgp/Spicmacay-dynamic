@@ -122,7 +122,7 @@ body {
   
   .card-wing:hover .icon i {
 	background: linear-gradient(90deg, #ff7e7e, #ff4848);
-	/* -webkit-background-clip: text; */
+
 	-webkit-text-fill-color: transparent;
 	opacity: 1;
 	transition: all 0.3s ease;

@@ -2,19 +2,14 @@ import React, { Component } from 'react';
 import "./7.css"
 import "./1.css"
 import "./13.css"
-import ten from "./images/10.jpg"
-import thirteen from "./images/13.jpg"
 
-import twelve from "./images/24.jpg"
 import twonine from "./images/29.jpg"
 import seventeen from "./images/17.jpg"
 import indika from './images/indika.jpg'
-import content from './images/contentwing.jpg'
-import it from './images/it2.jpg'
-import dance from './images/dance.jpg'
 import one from "./images/1.jpg"
-import { connect } from "react-redux"
-import eleven from "./images/11.jpg"
+
+import {connect} from "react-redux"
+
 import { searchyear } from './actions/recordactions';
 import { Link } from 'react-router-dom'
 import Slider from './carousel';
