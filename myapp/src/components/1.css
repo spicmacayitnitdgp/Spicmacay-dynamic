@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
 .zoom{
     width:100%;
     height:600px;
@@ -607,7 +608,8 @@ a{
 #about{
   max-width:"900px"; 
   margin:"auto";
-  margin-left: 30px;
+  /* margin-left: 1px; */
+  margin-right: 1px;
   color:black;
 }
 
@@ -633,17 +635,48 @@ body{
 
 .circle{
 
-  background-image:url("./images/lo.jpg");
-  background-size:120px 113px ;
+  background-image:url("./images/Website_Mandala.png");
+  background-size:180% ;
   background-repeat: no-repeat;
-  width:120px;
-  height:120px;
-  border-radius:50%;
+  width:170px;
+  height:320px;
   float:left;
   shape-outside:circle();
   margin:10px;
-  border:1px solid;
+  border:0px solid;
 
+}
+.para{
+  margin-left: 110px;
+  font-family: 'Luxurious Roman', cursive;
+  margin-right: 84px;
+}
+.heading{
+  font-size: 40px;
+} 
+@media(max-device-width: 450px) and (max-device-height: 950px)and (orientation: portrait){
+  .circle{
+
+    background-image:url("./images/Website_Mandala.png");
+    background-size:144%;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 240px;
+    /* border-radius:50%; */
+    float:left;
+    margin: 10px;
+    shape-outside:circle();
+    border:0px solid;
+  
+  }
+  .heading{
+    font-size: 40px;
+  }
+  .para{
+    font-size: 20px;
+    font-family: 'Luxurious Roman', cursive;
+    margin-right: 34px;
+  }
 }
 
 .events{
