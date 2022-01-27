@@ -15,7 +15,7 @@ function Wings(){
      
       <div class="card-wing">
          
-            <div class="icon"><img src={a} style={{width:"100px" }}/></div>
+            <div class="icon"><img src={a} style={{width:"200px" }}/></div>
             <p class="title">IT WING</p>
             <p class="text">This wings handles the technical stuff.</p>
          
@@ -24,7 +24,7 @@ function Wings(){
       
       <div class="card-wing">
          
-            <div class="icon"><img src={b} style={{width:"100px" }}/></div>
+            <div class="icon"><img src={b} style={{width:"200px" }}/></div>
             <p class="title">Music Wing</p>
             <p class="text">This wings creates melody.</p>
          
@@ -33,7 +33,7 @@ function Wings(){
       
       <div class="card-wing">
          
-            <div class="icon"><img src={c} style={{width:"100px" }}/></div>
+            <div class="icon"><img src={c} style={{width:"200px" }}/></div>
             <p class="title">Dance Wing</p>
             <p class="text">This wing stuns everyone with their moves.</p>
          
@@ -42,7 +42,7 @@ function Wings(){
       
       <div class="card-wing">
          
-            <div class="icon"><img src={d} style={{width:"130px" }}/></div>
+            <div class="icon"><img src={d} style={{width:"200px" }}/></div>
             <p class="title">Art Wing</p>
             <p class="text">This wings add colors to the world.</p>
          
@@ -51,7 +51,7 @@ function Wings(){
       
       <div class="card-wing">
          
-            <div class="icon"><img src={e} style={{width:"130px" }}/></div>
+            <div class="icon"><img src={e} style={{width:"200px" }}/></div>
             <p class="title">Content Wing</p>
             <p class="text">This wings provides information to showcases it to the world.</p>
          
