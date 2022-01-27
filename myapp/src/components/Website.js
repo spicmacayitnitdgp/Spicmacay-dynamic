@@ -1,10 +1,12 @@
 import React from 'react'
+
+import "./website.css"
 import Web from './images/Website.png'
 const Website = (props) => {
     console.log(props)
     return(
         <div className="container">
-            <img src={Web} className="d-block w-100" alt="..." />
+            <img  className="center-image " src={Web} alt="..." />
         </div>
     )
 }

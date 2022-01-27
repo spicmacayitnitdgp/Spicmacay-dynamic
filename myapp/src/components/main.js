@@ -53,10 +53,12 @@ class Main extends Component {
 
             </div>
 
-            <h1 className="heading" style={{ textAlign: 'center', color: '#3d3d3d', marginLeft: '20px' }}>ABOUT US</h1>
+            <h1 className="heading" >ABOUT US</h1>
             
             
             <p className="para" style={{ fontStyle: 'normal !important', wordWrap: 'break-word', color: '#3d3d3d' }}>SPIC MACAY (Society for the Promotion of Indian Classical Music And Culture Amongst Youth) is a non-political, nationwide, voluntary movement founded in 1977
+
+
               by Dr Kiran Seth, Professor-Emeritus at IIT-Delhi who was awarded the ‘Padma Shri’ for his contribution to the arts in 2009.
               SPICMACAY’s intention is to enrich the quality of formal education by increasing awareness about different aspects of Indian heritage
               and inspiring the young mind to imbibe the values embedded in it. It seeks to inspire youth through experiencing the mysticism embodied
@@ -71,7 +73,7 @@ class Main extends Component {
 
         <br /><br />
 
-        <h1 style={{ textAlign: "center", fontSize: '40px', color: '#3d3d3d' }}> EVENTS</h1>
+        <h1 style={{ textAlign: "center", fontSize: '40px'}}> EVENTS</h1>
         <br></br><br></br>
 
         <div className="contain1" >
@@ -118,7 +120,7 @@ class Main extends Component {
             </div>
 
           </div>
-          <div className="card" style={{ borderRadius: '10px' }}>
+          <div className="card" style={{ marginRight: "40px", borderRadius: '10px' }}>
             <div className="imgcard" style={{ borderRadius: '10px' }}>
               <img className="images" src={seventeen} loading="lazy" />
             </div>
@@ -143,10 +145,10 @@ class Main extends Component {
         </div>
 
 
-        <br></br>
+        
         <br></br>
         <div className="contain1" >
-          <div className="card" style={{ borderRadius: '10px' }}>
+          <div className="card" style={{ marginRight: "40px", borderRadius: '10px' }}>
             <div className="imgcard" style={{ borderRadius: '10px' }}>
               <img className="images" src={indika} loading="lazy" />
             </div>

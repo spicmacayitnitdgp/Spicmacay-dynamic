@@ -653,6 +653,7 @@ body{
 }
 .heading{
   font-size: 40px;
+  text-align: center;
 } 
 @media(max-device-width: 450px) and (max-device-height: 950px)and (orientation: portrait){
   .circle{
@@ -671,11 +672,14 @@ body{
   }
   .heading{
     font-size: 40px;
+    margin-left: 0px;
   }
   .para{
     font-size: 20px;
+    text-align: center;
     font-family: 'Luxurious Roman', cursive;
-    margin-right: 34px;
+    margin-left: 20px;
+    margin-right: 25px;
   }
 }
 
