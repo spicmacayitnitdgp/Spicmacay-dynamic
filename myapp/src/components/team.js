@@ -96,7 +96,7 @@ class Team extends Component {
 
                             <div className="row">
                                 <div style={{ textAlign: 'center', marginLeft: '4px' }} className="col-lg-12 descp">
-                                    General Seceretary
+                                     General 2 Seceretary
                                 </div>
                             </div></div>
                     </div>
@@ -116,7 +116,7 @@ class Team extends Component {
 
                             <div className="row">
                                 <div style={{ textAlign: 'center', marginLeft: '4px' }} className="col-lg-12 descp">
-                                    Vice-President,<br></br>Music Wing Head
+                                    Vice-President ,<br></br>Music Wing Head
                                 </div>
                             </div></div>
                     </div>
@@ -134,7 +134,7 @@ class Team extends Component {
 
                             <div className="row">
                                 <div style={{ textAlign: 'center', marginLeft: '4px' }} className="col-lg-12 descp">
-                                    Assistance General Secretary
+                                    npm General Secretary
                                 </div>
                             </div>
                         </div>

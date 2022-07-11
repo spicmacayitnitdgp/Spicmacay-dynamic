@@ -2,7 +2,7 @@ import React from 'react'
 import Members from './members/Members'
 
 // 2018-2022 batch //
-
+/*
 import abhishek from "../images/2nd/abhishek.jpg"
 import abhigyan from "../images/2nd/abhigyan.jpg"
 import ananya from "../images/2nd/ananya.jpg"
@@ -44,7 +44,7 @@ import aditi from "../images/1st/aditi.jpg"
 import chitrita from "../images/1st/chitrita.jpg"
 import gayatri from "../images/1st/gayatri.jpg"
 import diksha from "../images/1st/diksha.JPG"
-import aashish from "../images/1st/aashish.jpeg"
+import aashish from "../images/1st/asish.jpg"
 import chandrima from "../images/1st/chandrima.jpg"
 import avishek from "../images/1st/avishek.jpg"
 import avik from "../images/1st/avik.jpg"
@@ -126,4 +126,4 @@ export default function Team() {
         </div>
         
     )
-}
+} */

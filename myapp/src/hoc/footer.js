@@ -56,14 +56,14 @@ const Footer = () => {
                     </div>
                     <div className="footer_box_body">
                         <p>
-                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>President:</b>Rik Dasgupta</p>
-                            <p><i className="fa fa-phone">&nbsp;<a href="tel:+8004937056"> +91 8004937056</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:akshat7321.aj@gmail.com">  aritra240@gmail.com</a></i></p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>President:</b>Sayan Majumdar</p>
+                            <p><i className="fa fa-phone">&nbsp;<a href="tel:+9339581814"> +91 9339581814</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:sayanmaj555@gmail.com"> sayanmaj555@gmail.com </a></i></p>
                             <p></p>
-                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Vice President:</b>Adrija Biswas</p>
-                            <p><i className="fa fa-phone"><a href="tel:+">&nbsp; +91 9123077107 </a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:sohommukherjee.1998@gmail.com@gmail.com"> tiasha.biswas@gmail.com</a></i></p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>Vice President:</b>Ramiz Mollah</p>
+                            <p><i className="fa fa-phone"><a href="tel:+8420948856">&nbsp; +91 8420948856 </a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:r.mollah07@gmail.com"> r.mollah07@gmail.com</a></i></p>
                             <p></p>
-                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>General Secretary :</b>Annasha Dey</p>
-                            <p><i className="fa fa-phone"><a href="tel:+8788981871">&nbsp; +91 8788981871</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="mailto:sankalpchoubey10@gmail.com">rajdeepgolder@gmail.com</a></i></p>
+                            <p style={{fontSize:"16px",color:"white",fontStyle:'normal !important'}}><b>General Secretary :</b>Avik Ghatak</p>
+                            <p><i className="fa fa-phone"><a href="tel:+8910831396">&nbsp; +91 8910831396</a></i><br/><i className="fa fa-envelope">&nbsp;<a href="avikghatak02@gmail.com">avikghatak02@gmail.com</a></i></p>
                         </p>
                     </div>
                 </div>

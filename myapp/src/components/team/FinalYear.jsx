@@ -1,36 +1,36 @@
 import React from "react"
 
-import abhishek from "../images/2nd/abhishek.jpg"
-import abhigyan from "../images/2nd/abhigyan.jpg"
-import ananya from "../images/2nd/ananya.jpg"
-import annasha from "../images/2nd/annasha.jpg"
-import soumyajeet from "../images/2nd/soumyajeet.jpg"
-import joy from "../images/2nd/joy.jpg"
-import rik from "../images/2nd/rik.jpeg"
-import piyanjana from "../images/2nd/piyanjana.jpg"
-import anusha from "../images/2nd/anusha.jpg"
-import pritam from "../images/2nd/pritam.jpg"
-import tiyasha from "../images/2nd/tiyasha.jpg"
-import saikat from "../images/2nd/saikat.jpg"
-import soumyajit from "../images/2nd/soumyajit.jpg"
-import sayani from "../images/2nd/sayani.jpg"
-import rittick from "../images/2nd/rittick.jpg"
-import rangeet from "../images/2nd/rangeet.jpg"
-import somdatta from "../images/2nd/somdatta.jpg"
-import tapojyoti from "../images/2nd/tapojyoti.jpg"
-import trishika from "../images/2nd/trishikha.jpg"
-import madhumita from "../images/2nd/x.jpeg"
-import tamogna from "../images/2nd/tamoghna.jpg"
-import souvik from "../images/2nd/souvik.jpg"
-import sneha from "../images/2nd/sneha.jpg"
-import sujana from "../images/2nd/sujana.jpeg"
-import saswata from "../images/2nd/saswata.jpeg"
-import madhura from "../images/2nd/Madhura.jpg"
-import shivapriya from "../images/2nd/shivapriya.jpg"
-import arya from "../images/2nd/arya.jpg"
-import adrija from "../images/2nd/adrija.jpg"
-import suneha from "../images/2nd/suneha.jpg"
-import mahumita from "../images/2nd/mahumita.jpeg"
+
+
+import ram from "../images/1st/ram.JPG"
+
+import aditi from "../images/1st/aditi.jpg"
+import chitrita from "../images/1st/chitrita.jpg"
+import gayatri from "../images/1st/gayatri.jpg"
+import diksha from "../images/1st/diksha.jpg"
+import aashish from "../images/1st/asish.jpg"
+
+import avik from "../images/1st/avik.jpg"
+
+import titas from "../images/1st/titas.jpg"
+import aishwariya from "../images/1st/aishwariya.jpg"
+import archi from "../images/1st/archi.jpg"
+import sayang from "../images/1st/sayang.jpg"
+import sayantani from "../images/1st/sayantani.jpg"
+import shubham from "../images/1st/shubham.jpg"
+import anupam from "../images/1st/anupam.jpg"
+
+import prabhat from "../images/1st/prabhat.jpg"
+import sankita from "../images/1st/sankita.jpg"
+import sayan from "../images/1st/sayan.jpg"
+import ankita from "../images/1st/ankita.jpg"
+import ramiz from "../images/1st/ramiz.jpg"
+import ananyaBiswas from "../images/1st/ananya.jpeg"
+import deboleena from "../images/1st/deboleena.jpg"
+import rageshree from "../images/1st/rageshree.jpg"
+import rhiti from "../images/1st/rhiti.jpg"
+import ritika from "../images/1st/ritika.jpg"
+import Sneha from "../images/1st/sneha.jpeg"
 
 
 
@@ -51,9 +51,9 @@ export default function FinalYear() {
             </div>
 
             <div className="row clearfix">
+            
 
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+            <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
                             <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
@@ -63,15 +63,17 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={rik} alt="" /></a>
+                            <a href="#"><img src={sayan} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Rik Dasgupta </a></h3>
+                            <h3><a href="#">Sayan Majumdar</a></h3>
                             <div className="designation">President</div>
                         </div>
                     </div>
                 </div>
+
                 
+
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
@@ -82,15 +84,72 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={sujana} alt="" /></a>
+                            <a href="#"><img src={ramiz} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Sujana Pal </a></h3>
+                            <h3><a href="#">Ramiz Mollah </a></h3>
+                            <div className="designation">Vice-President , WEB-D Head </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={avik} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Avik Ghatak</a></h3>
+                            <div className="designation">General Secretary </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={ankita} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Ankita Mandal</a></h3>
+                            <div className="designation">Assistant General Secretary </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={sayantani} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Sayantani Roy </a></h3>
                             <div className="designation">Treasurer </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
@@ -101,71 +160,14 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={somdatta} alt="" /></a>
+                            <a href="#"><img src={rageshree} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Somdatta Paul </a></h3>
+                            <h3><a href="#">Ragashree Bhattacharjee</a></h3>
                             <div className="designation">Treasurer </div>
                         </div>
                     </div>
                 </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={adrija} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Adrija Biswas </a></h3>
-                            <div className="designation">Vice President<br/> Music Wing Head </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={annasha} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Annasha Dey </a></h3>
-                            <div className="designation">General Seceretary</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={joy} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Joy Mallick</a></h3>
-                            <div className="designation">Assistance General Seceretary </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -177,15 +179,15 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={madhumita} alt="" /></a>
+                            <a href="#"><img src={aishwariya} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Madhumita Mandal</a></h3>
+                            <h3><a href="#">Aishwarya Prakash </a></h3>
                             <div className="designation">Sponsorship Head </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
@@ -196,30 +198,11 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={abhishek} alt="" /></a>
+                            <a href="#"><img src={titas} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Abhisek Dey</a></h3>
-                            <div className="designation">Sponsorship Head</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={sayani} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Sayani Saha</a></h3>
-                            <div className="designation"> Publicity Head</div>
+                            <h3><a href="#">Titas Nath </a></h3>
+                            <div className="designation">Music Wing Head, Sponsorship Head </div>
                         </div>
                     </div>
                 </div>
@@ -234,15 +217,15 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={saswata} alt="" /></a>
+                            <a href="#"><img src={aditi} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Saswata Bagchi</a></h3>
+                            <h3><a href="#">Aditi Gedam </a></h3>
                             <div className="designation">Publicity Head </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
@@ -253,30 +236,11 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={soumyajeet} alt="" /></a>
+                            <a href="#"><img src={ananyaBiswas} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Saumyajeet Mukherjee</a></h3>
-                            <div className="designation">Web-D Head</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={rittick} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#"> Rittick Purkait</a></h3>
-                            <div className="designation"> IT Wing Head</div>
+                            <h3><a href="#">Ananya Biswas</a></h3>
+                            <div className="designation">Publicity Head</div>
                         </div>
                     </div>
                 </div>
@@ -291,49 +255,11 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={soumyajit} alt="" /></a>
+                            <a href="#"><img src={aashish} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Soumyajit Ganguly</a></h3>
-                            <div className="designation">IT Wing Head</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={saikat} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Saikat Ghosh</a></h3>
-                            <div className="designation">IT Wing Head</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={sneha} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#"> Sneha Rani Dey</a></h3>
-                            <div className="designation"> Dance Wing Head</div>
+                            <h3><a href="#">Aashish Illa </a></h3>
+                            <div className="designation">IT Wing Head </div>
                         </div>
                     </div>
                 </div>
@@ -348,15 +274,15 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={madhura} alt="" /></a>
+                            <a href="#"><img src={ritika} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Madhura Ghosh</a></h3>
-                            <div className="designation"> Dance Wing Head</div>
+                            <h3><a href="#">Ritika Singh </a></h3>
+                            <div className="designation">IT Wing Head </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
@@ -367,33 +293,52 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={trishika} alt="" /></a>
+                            <a href="#"><img src={diksha} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Trishikha Saha</a></h3>
+                            <h3><a href="#">Diksha Senpati</a></h3>
+                            <div className="designation">Dance Wing Head</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={gayatri} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">V.Gayatri Deepshikha</a></h3>
+                            <div className="designation">Dance Wing Head</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={prabhat} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Prabhat Rathod </a></h3>
                             <div className="designation">Art Wing Head</div>
                         </div>
                     </div>
                 </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={tamogna} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#"> Tamoghna Basak</a></h3>
-                            <div className="designation"> Art Wing Head</div>
-                        </div>
-                    </div>
-                </div>
 
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -405,34 +350,15 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={rangeet} alt="" /></a>
+                            <a href="#"><img src={sayang} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Rangeet Hait</a></h3>
-                            <div className="designation"> Art Wing Head</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={suneha} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Suneha Maiti</a></h3>
+                            <h3><a href="#">Sayan Ghosh</a></h3>
                             <div className="designation">Music Wing Head</div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
@@ -443,12 +369,11 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={abhigyan} alt="" /></a>
+                            <a href="#"><img src={deboleena} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#"> Abhigyan Deoli</a></h3>
-                            <div className="designation"> Music Wing Head</div>
-                        
+                            <h3><a href="#">Deboleena Das </a></h3>
+                            <div className="designation">Content Wing Head </div>
                         </div>
                     </div>
                 </div>
@@ -463,16 +388,17 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={anusha} alt="" /></a>
+                            <a href="#"><img src={sankita} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Anusha Ghosh</a></h3>
-                            <div className="designation"> Content Wing Head</div>
+                            <h3><a href="#">Sankita Mandal </a></h3>
+                            <div className="designation">Content Wing Head </div>
                         </div>
                     </div>
                 </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+
+
+            <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
                             <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
@@ -482,131 +408,27 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={ananya} alt="" /></a>
+                            <a href="#"><img src={ram} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Ananya Nath</a></h3>
-                            <div className="designation">Dance Wing</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={piyanjana} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">  Piyanjana Ghosh</a></h3>
-                            <div className="designation"> Music Wing </div>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={pritam} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Pritam Mandal</a></h3>
-                            <div className="designation"> Creative Wing</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={tiyasha} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Tiyasha Ghosh</a></h3>
-                            <div className="designation">Creative Wing</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={tapojyoti} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">  Tapojyoti Mohanta</a></h3>
-                            <div className="designation"> Creative Wing </div>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={souvik} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Souvik Bose</a></h3>
-                            <div className="designation"> Music Wing</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="team-block col-lg-4 col-md-6 col-sm-12">
-                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <ul className="social-icons">
-                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            
-
-                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <div className="image">
-                            <a href="#"><img src={arya} alt="" /></a>
-                        </div>
-                        <div className="lower-content">
-                            <h3><a href="#">Arya Verma</a></h3>
+                            <h3><a href="#">Rama Charan </a></h3>
                             <div className="designation">Music Wing</div>
                         </div>
                     </div>
                 </div>
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+               
+                
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <ul className="social-icons">
@@ -617,15 +439,102 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={shivapriya} alt="" /></a>
+                            <a href="#"><img src={archi} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">  Shivapriya Garigipati</a></h3>
-                            <div className="designation"> Music Wing</div>
-                            
+                            <h3><a href="#">Archi Saha </a></h3>
+                            <div className="designation">Dance Wing </div>
                         </div>
                     </div>
                 </div>
+                
+                
+
+                
+                
+                
+                
+                
+
+                
+                
+                
+                
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={chitrita} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Chitrita Roy </a></h3>
+                            <div className="designation">Creative Wing </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+                
+                
+
+                
+                
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={anupam} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Anupam Das </a></h3>
+                            <div className="designation">Creative Wing </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+                
+                
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={shubham} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Shubham Ghosal </a></h3>
+                            <div className="designation">Music Wing </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+                
+                
+                
+                
+                
 
                 <div className="team-block col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -637,14 +546,38 @@ export default function FinalYear() {
                             <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
                         </ul>
                         <div className="image">
-                            <a href="#"><img src={mahumita} alt="" /></a>
+                            <a href="#"><img src={rhiti} alt="" /></a>
                         </div>
                         <div className="lower-content">
-                            <h3><a href="#">Mahumita Bose</a></h3>
-                            <div className="designation"> Creative Wing</div>
+                            <h3><a href="#">Rhiti Mitra</a></h3>
+                            <div className="designation">Music Wing</div>
                         </div>
                     </div>
                 </div>
+                
+               
+                
+                <div className="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div className="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <ul className="social-icons">
+                            <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            
+
+                            <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                        <div className="image">
+                            <a href="#"><img src={Sneha} alt="" /></a>
+                        </div>
+                        <div className="lower-content">
+                            <h3><a href="#">Sneha Chattopadhyay</a></h3>
+                            <div className="designation">Creative Wing </div>
+                        </div>
+                    </div>
+                </div>    
+               
+                
+               
 
             </div>
         </div>
@@ -653,5 +586,6 @@ export default function FinalYear() {
         
         </div>
         
-    )
+     )
 }
+
